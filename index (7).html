@@ -1,0 +1,2493 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AgroVale Cerrado | Indústria e Agronegócio — Insumos, Grãos e Soluções</title>
+<meta name="description" content="Indústria e agroindústria no Cerrado: fertilizantes, sementes, nutrição animal, originação de grãos e assistência técnica para produtores e revendas.">
+<link rel="canonical" href="https://www.agrovalecerrado.com.br/">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --verde-900:#0F2A1D;--verde-800:#1B4332;--verde-700:#2D6A4F;--verde-600:#40916C;
+  --verde-100:#D8F3DC;--marrom-700:#5C3D1E;--marrom-500:#8B5E34;--marrom-200:#E4D5C3;
+  --areia:#F6F3EE;--cinza-800:#252B33;--cinza-600:#4B5563;--cinza-400:#9AA3AE;
+  --cinza-200:#E2E5E9;--dourado:#C9A227;--branco:#FFFFFF;
+  --sombra:0 4px 24px rgba(15,42,29,.08);--sombra-forte:0 12px 40px rgba(15,42,29,.16);
+  --raio:6px;--max:1240px;--max-leitura:760px;
+  --font-tit:"Georgia","Times New Roman",serif;
+  --font-txt:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-txt);color:var(--cinza-800);background:var(--branco);line-height:1.65;font-size:16px;-webkit-font-smoothing:antialiased}
+img,svg{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+button,input,select,textarea{font:inherit;color:inherit}
+.container{max-width:var(--max);margin:0 auto;padding:0 24px}
+.container-leitura{max-width:var(--max-leitura);margin:0 auto;padding:0 24px}
+.section{padding:88px 0}
+.section--areia{background:var(--areia)}
+.section--escura{background:var(--verde-900);color:#EAF2EC}
+.grid{display:grid;gap:28px}
+.g2{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
+.center{text-align:center}
+h1,h2,h3,h4{font-family:var(--font-tit);line-height:1.2;font-weight:700;letter-spacing:-.01em}
+h1{font-size:clamp(2rem,4.2vw,3.4rem)}
+h2{font-size:clamp(1.6rem,2.8vw,2.35rem)}
+h3{font-size:1.22rem}h4{font-size:1.02rem}
+p{color:var(--cinza-600)}
+.section--escura p{color:#B9CFC2}
+.eyebrow{display:inline-flex;align-items:center;gap:9px;font-size:.72rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--verde-700);margin-bottom:16px}
+.eyebrow::before{content:"";width:26px;height:2px;background:var(--dourado);display:block}
+.section--escura .eyebrow{color:var(--verde-100)}
+.section-head{max-width:720px;margin-bottom:52px}
+.section-head.center{margin-left:auto;margin-right:auto}
+.ilus{width:100%;height:100%;display:block}
+.ilus-wrap{position:absolute;inset:0;overflow:hidden}
+.ilus-wrap svg{width:100%;height:100%;object-fit:cover}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:14px 28px;border-radius:var(--raio);font-size:.9rem;font-weight:700;letter-spacing:.02em;border:2px solid transparent;cursor:pointer;transition:all .22s ease;white-space:nowrap}
+.btn--primario{background:var(--verde-700);color:#fff}
+.btn--primario:hover{background:var(--verde-800);transform:translateY(-2px);box-shadow:var(--sombra-forte)}
+.btn--secundario{background:transparent;color:var(--verde-800);border-color:var(--verde-700)}
+.btn--secundario:hover{background:var(--verde-800);color:#fff;border-color:var(--verde-800)}
+.btn--claro{background:var(--branco);color:var(--verde-800)}
+.btn--claro:hover{background:var(--verde-100);transform:translateY(-2px)}
+.btn--ghost-claro{background:transparent;color:#fff;border-color:rgba(255,255,255,.45)}
+.btn--ghost-claro:hover{background:rgba(255,255,255,.12);border-color:#fff}
+.btn--bloco{width:100%}
+.topo{background:var(--verde-900);color:#A9C4B4;font-size:.78rem;letter-spacing:.02em}
+.topo .container{display:flex;justify-content:space-between;align-items:center;gap:20px;height:38px}
+.topo-lista{display:flex;gap:22px;align-items:center}
+.topo-lista a:hover{color:#fff}
+.topo-lista svg{width:13px;height:13px;vertical-align:-2px;margin-right:5px}
+.header{position:sticky;top:0;z-index:900;background:rgba(255,255,255,.97);backdrop-filter:blur(10px);border-bottom:1px solid var(--cinza-200);transition:box-shadow .25s}
+.header.rolado{box-shadow:0 2px 20px rgba(15,42,29,.1)}
+.header .container{display:flex;align-items:center;justify-content:space-between;gap:24px;height:76px}
+.logo{display:flex;align-items:center;gap:12px}
+.logo-marca{width:42px;height:42px;border-radius:5px;flex:0 0 42px;background:linear-gradient(140deg,var(--verde-700),var(--verde-900));display:grid;place-items:center}
+.logo-marca svg{width:24px;height:24px}
+.logo-txt strong{display:block;font-family:var(--font-tit);font-size:1.18rem;color:var(--verde-900);letter-spacing:-.02em;line-height:1.1}
+.logo-txt span{display:block;font-size:.64rem;letter-spacing:.2em;text-transform:uppercase;color:var(--marrom-500);font-weight:700}
+.nav{display:flex;align-items:center;gap:4px}
+.nav a{padding:9px 13px;border-radius:var(--raio);font-size:.86rem;font-weight:600;color:var(--cinza-600);transition:all .18s}
+.nav a:hover{color:var(--verde-800);background:var(--areia)}
+.nav a.ativo{color:var(--verde-800)}
+.nav a.ativo::after{content:"";display:block;height:2px;background:var(--dourado);margin-top:5px;border-radius:2px}
+.header-acoes{display:flex;align-items:center;gap:12px}
+.menu-btn{display:none;background:none;border:none;cursor:pointer;padding:8px}
+.menu-btn span{display:block;width:24px;height:2px;background:var(--verde-900);margin:5px 0;transition:.25s}
+.hero{position:relative;min-height:620px;display:flex;align-items:center;background:#0F2A1D;color:#fff;overflow:hidden}
+.hero-bg{position:absolute;inset:0;z-index:0}
+.hero-bg svg{width:100%;height:100%;object-fit:cover}
+.hero-overlay{position:absolute;inset:0;z-index:1;background:linear-gradient(100deg,rgba(15,42,29,.96) 0%,rgba(15,42,29,.88) 45%,rgba(27,67,50,.55) 100%)}
+.hero .container{position:relative;z-index:2;padding-top:80px;padding-bottom:80px}
+.hero-inner{max-width:730px}
+.hero h1{color:#fff;margin-bottom:22px}
+.hero h1 em{font-style:normal;color:#8FD3A8}
+.hero p{color:#C3DACB;font-size:1.08rem;max-width:600px;margin-bottom:34px}
+.hero-botoes{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:44px}
+.hero-selos{display:flex;gap:26px;flex-wrap:wrap;padding-top:26px;border-top:1px solid rgba(255,255,255,.16)}
+.hero-selo{display:flex;align-items:center;gap:9px;font-size:.8rem;color:#A9C4B4;font-weight:600}
+.hero-selo svg{width:16px;height:16px;stroke:#8FD3A8;fill:none;stroke-width:2}
+.numeros{background:var(--verde-800)}
+.numeros .container{display:grid;grid-template-columns:repeat(4,1fr)}
+.numero{padding:38px 24px;text-align:center;border-right:1px solid rgba(255,255,255,.1)}
+.numero:last-child{border-right:none}
+.numero strong{display:block;font-family:var(--font-tit);font-size:2.3rem;color:#fff;line-height:1;margin-bottom:8px}
+.numero span{font-size:.8rem;color:#A9C4B4;letter-spacing:.04em}
+.card{background:#fff;border:1px solid var(--cinza-200);border-radius:var(--raio);padding:34px 30px;transition:all .25s ease;position:relative;overflow:hidden;display:flex;flex-direction:column}
+.card::before{content:"";position:absolute;top:0;left:0;width:100%;height:3px;background:linear-gradient(90deg,var(--verde-600),var(--dourado));transform:scaleX(0);transform-origin:left;transition:transform .3s}
+.card:hover{transform:translateY(-5px);box-shadow:var(--sombra-forte);border-color:transparent}
+.card:hover::before{transform:scaleX(1)}
+.card-icone{width:52px;height:52px;border-radius:5px;display:grid;place-items:center;background:var(--verde-100);margin-bottom:22px}
+.card-icone svg{width:26px;height:26px;stroke:var(--verde-700);fill:none;stroke-width:1.7}
+.card h3{color:var(--verde-900);margin-bottom:12px}
+.card p{font-size:.92rem;margin-bottom:18px}
+.card-link{margin-top:auto;font-size:.83rem;font-weight:700;color:var(--verde-700);letter-spacing:.03em;display:inline-flex;align-items:center;gap:7px;cursor:pointer}
+.card-link:hover{gap:11px;color:var(--marrom-500)}
+.card-link::after{content:"→";transition:.2s}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.split-visual{border-radius:var(--raio);min-height:420px;position:relative;overflow:hidden;background:var(--verde-900)}
+.split-badge{position:absolute;bottom:26px;left:26px;right:26px;z-index:3;background:rgba(255,255,255,.96);border-radius:var(--raio);padding:20px 24px;display:flex;align-items:center;gap:16px}
+.split-badge strong{font-family:var(--font-tit);font-size:1.9rem;color:var(--verde-800);line-height:1}
+.split-badge span{font-size:.8rem;color:var(--cinza-600);line-height:1.35}
+.lista-check{margin-top:26px;display:grid;gap:13px}
+.lista-check li{display:flex;gap:12px;align-items:flex-start;font-size:.93rem;color:var(--cinza-600)}
+.lista-check svg{width:19px;height:19px;flex:0 0 19px;stroke:var(--verde-700);margin-top:3px;fill:none;stroke-width:2.4;stroke-linecap:round}
+.filtros{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:40px}
+.filtro{padding:9px 20px;border-radius:100px;border:1.5px solid var(--cinza-200);background:#fff;font-size:.83rem;font-weight:600;color:var(--cinza-600);cursor:pointer;transition:all .2s}
+.filtro:hover{border-color:var(--verde-600);color:var(--verde-700)}
+.filtro.ativo{background:var(--verde-800);border-color:var(--verde-800);color:#fff}
+.produto{background:#fff;border:1px solid var(--cinza-200);border-radius:var(--raio);overflow:hidden;transition:all .25s;display:flex;flex-direction:column}
+.produto:hover{box-shadow:var(--sombra-forte);transform:translateY(-4px)}
+.produto-img{height:180px;position:relative;overflow:hidden;background:var(--verde-900)}
+.produto-img svg{width:100%;height:100%;display:block}
+.produto-tag{position:absolute;top:16px;left:16px;z-index:2;background:rgba(255,255,255,.95);color:var(--verde-800);padding:5px 13px;border-radius:100px;font-size:.68rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.produto-corpo{padding:24px;display:flex;flex-direction:column;flex:1}
+.produto-corpo h3{font-size:1.08rem;color:var(--verde-900);margin-bottom:9px}
+.produto-corpo p{font-size:.87rem;margin-bottom:16px}
+.produto-specs{display:grid;gap:6px;margin-bottom:18px;padding-top:16px;border-top:1px dashed var(--cinza-200)}
+.produto-specs li{font-size:.78rem;color:var(--cinza-600);display:flex;gap:8px}
+.produto-specs li b{color:var(--verde-800);font-weight:700;min-width:74px}
+.pilar{padding:32px 26px;border-left:3px solid var(--verde-600);background:rgba(255,255,255,.04);border-radius:0 var(--raio) var(--raio) 0}
+.section--escura .pilar h3{color:#fff;margin-bottom:10px;font-size:1.05rem}
+.pilar p{font-size:.88rem}
+.certificacoes{display:flex;gap:16px;flex-wrap:wrap;margin-top:36px}
+.cert{padding:14px 22px;border:1px solid rgba(255,255,255,.22);border-radius:var(--raio);font-size:.78rem;font-weight:700;letter-spacing:.05em;color:#CFE3D6}
+.case{background:#fff;border:1px solid var(--cinza-200);border-radius:var(--raio);padding:32px;display:flex;flex-direction:column;transition:.25s}
+.case:hover{box-shadow:var(--sombra-forte)}
+.case-tipo{font-size:.68rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--marrom-500);margin-bottom:14px}
+.case h3{color:var(--verde-900);margin-bottom:12px;font-size:1.12rem}
+.case p{font-size:.88rem;margin-bottom:20px}
+.case-resultado{display:flex;gap:26px;padding-top:18px;border-top:1px solid var(--cinza-200);margin-top:auto}
+.case-resultado div strong{display:block;font-family:var(--font-tit);font-size:1.55rem;color:var(--verde-700);line-height:1}
+.case-resultado div span{font-size:.72rem;color:var(--cinza-400);letter-spacing:.04em}
+.depoimento{background:var(--areia);border-radius:var(--raio);padding:34px;border-left:3px solid var(--dourado)}
+.depoimento p{font-family:var(--font-tit);font-size:1.06rem;font-style:italic;color:var(--cinza-800);margin-bottom:20px}
+.depoimento-autor{display:flex;align-items:center;gap:14px}
+.depoimento-avatar{width:46px;height:46px;border-radius:50%;background:var(--verde-700);display:grid;place-items:center;color:#fff;font-weight:800;font-size:.9rem;flex:0 0 46px}
+.depoimento-autor strong{display:block;font-size:.88rem;color:var(--verde-900)}
+.depoimento-autor span{font-size:.78rem;color:var(--cinza-400)}
+.logos{display:grid;grid-template-columns:repeat(6,1fr);gap:14px;margin-top:48px}
+.logos div{height:76px;display:grid;place-items:center;border:1px solid var(--cinza-200);border-radius:var(--raio);font-size:.76rem;font-weight:800;letter-spacing:.08em;color:var(--cinza-400);text-transform:uppercase;background:#fff}
+.post{background:#fff;border:1px solid var(--cinza-200);border-radius:var(--raio);overflow:hidden;transition:.25s;display:flex;flex-direction:column;cursor:pointer}
+.post:hover{box-shadow:var(--sombra-forte);transform:translateY(-4px)}
+.post-img{height:170px;position:relative;overflow:hidden;background:var(--verde-900)}
+.post-img svg{width:100%;height:100%;display:block}
+.post-corpo{padding:24px;display:flex;flex-direction:column;flex:1}
+.post-meta{font-size:.72rem;color:var(--cinza-400);letter-spacing:.05em;text-transform:uppercase;font-weight:700;margin-bottom:12px}
+.post h3{font-size:1.03rem;color:var(--verde-900);margin-bottom:10px;line-height:1.35}
+.post p{font-size:.86rem;margin-bottom:16px}
+.download{display:flex;align-items:center;gap:20px;padding:22px 26px;background:#fff;border:1px solid var(--cinza-200);border-radius:var(--raio);transition:.2s}
+.download:hover{border-color:var(--verde-600);box-shadow:var(--sombra)}
+.download-icone{width:46px;height:46px;flex:0 0 46px;border-radius:5px;display:grid;place-items:center;background:var(--verde-100);font-size:.66rem;font-weight:800;color:var(--verde-800)}
+.download-info{flex:1}
+.download-info strong{display:block;font-size:.94rem;color:var(--verde-900);margin-bottom:3px}
+.download-info span{font-size:.78rem;color:var(--cinza-400)}
+.download-btn{padding:10px 20px;border-radius:var(--raio);border:1.5px solid var(--verde-700);background:transparent;color:var(--verde-700);font-size:.79rem;font-weight:700;cursor:pointer;transition:.2s;white-space:nowrap}
+.download-btn:hover{background:var(--verde-700);color:#fff}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.campo{display:flex;flex-direction:column;gap:7px}
+.campo--full{grid-column:1/-1}
+.campo label{font-size:.79rem;font-weight:700;color:var(--verde-900);letter-spacing:.03em}
+.campo label span{color:var(--marrom-500)}
+.campo input,.campo select,.campo textarea{padding:13px 15px;border:1.5px solid var(--cinza-200);border-radius:var(--raio);background:#fff;font-size:.9rem;transition:.2s;width:100%}
+.campo input:focus,.campo select:focus,.campo textarea:focus{outline:none;border-color:var(--verde-600);box-shadow:0 0 0 3px rgba(64,145,108,.13)}
+.campo textarea{resize:vertical;min-height:118px}
+.check-lgpd{display:flex;gap:11px;align-items:flex-start;font-size:.79rem;color:var(--cinza-600)}
+.check-lgpd input{width:auto;margin-top:4px;flex:0 0 auto}
+.form-painel{background:#fff;border-radius:var(--raio);padding:42px;box-shadow:var(--sombra)}
+.form-sucesso{display:none;background:var(--verde-100);border:1px solid var(--verde-600);color:var(--verde-800);padding:18px 22px;border-radius:var(--raio);font-size:.88rem;font-weight:600;margin-bottom:24px}
+.form-sucesso.visivel{display:block}
+.contato-item{display:flex;gap:16px;padding:20px 0;border-bottom:1px solid var(--cinza-200)}
+.contato-item:last-child{border-bottom:none}
+.contato-item svg{width:20px;height:20px;stroke:var(--verde-700);fill:none;stroke-width:1.7;flex:0 0 20px;margin-top:4px}
+.contato-item strong{display:block;font-size:.86rem;color:var(--verde-900);margin-bottom:3px}
+.contato-item span{font-size:.85rem;color:var(--cinza-600)}
+.mapa{height:300px;border-radius:var(--raio);margin-top:32px;background:var(--areia);display:grid;place-items:center;border:1px solid var(--cinza-200);font-size:.82rem;color:var(--cinza-400);font-weight:600;overflow:hidden;position:relative}
+.mapa svg{width:100%;height:100%}
+.cta-final{background:linear-gradient(115deg,var(--verde-900),var(--verde-700));color:#fff;padding:80px 0;position:relative;overflow:hidden}
+.cta-final::after{content:"";position:absolute;inset:0;opacity:.09;background-image:repeating-linear-gradient(120deg,transparent 0 50px,rgba(255,255,255,.8) 50px 51px)}
+.cta-final .container{position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap}
+.cta-final h2{color:#fff;margin-bottom:10px}
+.cta-final p{color:#B9CFC2;max-width:560px;margin:0}
+.cta-final-botoes{display:flex;gap:14px;flex-wrap:wrap}
+.footer{background:var(--verde-900);color:#93AFA0;padding:64px 0 0;font-size:.86rem}
+.footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1.2fr;gap:44px;padding-bottom:48px}
+.footer h4{color:#fff;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;margin-bottom:22px;font-family:var(--font-txt);font-weight:800}
+.footer-lista{display:grid;gap:11px}
+.footer-lista a:hover{color:#fff}
+.footer .logo-txt strong{color:#fff}
+.footer .logo-txt span{color:#8FD3A8}
+.footer-sobre{margin:20px 0;line-height:1.7;max-width:320px}
+.footer-social{display:flex;gap:10px}
+.footer-social a{width:36px;height:36px;border-radius:5px;display:grid;place-items:center;background:rgba(255,255,255,.08);transition:.2s;font-size:.72rem;font-weight:800;color:#CFE3D6}
+.footer-social a:hover{background:var(--verde-600);color:#fff}
+.footer-base{border-top:1px solid rgba(255,255,255,.1);padding:24px 0;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:.78rem;color:#7E9A8B}
+.footer-base a:hover{color:#fff}
+.page{display:none;animation:fade .35s ease}
+.page.ativo{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.page-hero{background:linear-gradient(115deg,var(--verde-900),var(--verde-700));color:#fff;padding:72px 0 64px;position:relative;overflow:hidden}
+.page-hero::after{content:"";position:absolute;inset:0;opacity:.08;background-image:repeating-linear-gradient(120deg,transparent 0 50px,rgba(255,255,255,.8) 50px 51px)}
+.page-hero .container{position:relative;z-index:2}
+.page-hero h1{color:#fff;font-size:clamp(1.8rem,3.4vw,2.7rem);margin-bottom:14px}
+.page-hero p{color:#B9CFC2;max-width:660px;font-size:1rem}
+.breadcrumb{font-size:.76rem;color:#7E9A8B;margin-bottom:18px;letter-spacing:.04em}
+.breadcrumb a:hover{color:#fff}
+.breadcrumb span{color:#8FD3A8}
+.timeline{border-left:2px solid var(--cinza-200);padding-left:34px;display:grid;gap:34px}
+.timeline-item{position:relative}
+.timeline-item::before{content:"";position:absolute;left:-42px;top:6px;width:14px;height:14px;border-radius:50%;background:var(--verde-700);border:3px solid #fff;box-shadow:0 0 0 2px var(--verde-700)}
+.timeline-item strong{display:block;font-family:var(--font-tit);font-size:1.4rem;color:var(--dourado);margin-bottom:6px}
+.timeline-item h4{color:var(--verde-900);margin-bottom:6px}
+.timeline-item p{font-size:.88rem}
+.mvv{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.mvv-item{background:#fff;border-radius:var(--raio);padding:30px;border-top:3px solid var(--verde-600)}
+.mvv-item h4{color:var(--verde-900);margin-bottom:10px;font-family:var(--font-tit);font-size:1.1rem}
+.mvv-item p{font-size:.88rem}
+.article-hero{background:linear-gradient(115deg,var(--verde-900),var(--verde-700));color:#fff;padding:56px 0 0;position:relative;overflow:hidden}
+.article-hero::after{content:"";position:absolute;inset:0;opacity:.08;background-image:repeating-linear-gradient(120deg,transparent 0 50px,rgba(255,255,255,.8) 50px 51px)}
+.article-hero .container-leitura{position:relative;z-index:2}
+.article-cat{display:inline-block;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.3);color:#EAF2EC;padding:6px 14px;border-radius:100px;font-size:.72rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;margin-bottom:20px}
+.article-hero h1{color:#fff;font-size:clamp(1.7rem,3.2vw,2.5rem);margin-bottom:18px;line-height:1.2}
+.article-hero .article-resumo{color:#B9CFC2;font-size:1.05rem;max-width:680px;margin-bottom:28px}
+.article-meta{display:flex;gap:26px;flex-wrap:wrap;font-size:.8rem;color:#8FD3A8;padding-bottom:40px}
+.article-meta span{display:flex;align-items:center;gap:7px}
+.article-meta svg{width:14px;height:14px;stroke:#8FD3A8;fill:none;stroke-width:2}
+.article-capa{height:340px;position:relative;overflow:hidden;background:var(--verde-900);margin-top:-20px}
+.article-capa svg{width:100%;height:100%;display:block}
+.article-body{padding:56px 0 88px}
+.article-content{font-size:1.02rem;line-height:1.78;color:#2D3540}
+.article-content > * + *{margin-top:22px}
+.article-content h2{font-size:1.55rem;color:var(--verde-900);margin-top:52px;margin-bottom:6px;line-height:1.3}
+.article-content h2:first-child{margin-top:0}
+.article-content h3{font-size:1.18rem;color:var(--verde-800);margin-top:36px;margin-bottom:4px}
+.article-content p{color:#2D3540;font-size:1.02rem}
+.article-content ul,.article-content ol{padding-left:4px;display:grid;gap:11px}
+.article-content ul li{display:flex;gap:13px;align-items:flex-start}
+.article-content ul li::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--verde-600);flex:0 0 8px;margin-top:9px}
+.article-content ol{counter-reset:num}
+.article-content ol li{display:flex;gap:13px;align-items:flex-start;counter-increment:num}
+.article-content ol li::before{content:counter(num);width:26px;height:26px;flex:0 0 26px;border-radius:50%;background:var(--verde-100);color:var(--verde-800);font-size:.82rem;font-weight:800;display:grid;place-items:center;margin-top:2px}
+.article-content strong{color:var(--verde-900);font-weight:700}
+.article-content blockquote{border-left:4px solid var(--dourado);background:var(--areia);padding:24px 28px;border-radius:0 var(--raio) var(--raio) 0;font-family:var(--font-tit);font-style:italic;font-size:1.12rem;color:var(--verde-900);margin:32px 0}
+.article-content blockquote p{font-family:var(--font-tit);font-style:italic;font-size:1.12rem;color:var(--verde-900);margin:0}
+.article-content .callout{background:var(--verde-100);border-left:4px solid var(--verde-700);padding:22px 26px;border-radius:0 var(--raio) var(--raio) 0;margin:32px 0}
+.article-content .callout strong{display:block;font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--verde-800);margin-bottom:8px;font-family:var(--font-txt)}
+.article-content .callout p{font-size:.95rem;margin:0;color:var(--verde-900)}
+.article-content table{width:100%;border-collapse:collapse;margin:28px 0;font-size:.9rem;border:1px solid var(--cinza-200);border-radius:var(--raio);overflow:hidden}
+.article-content th{background:var(--verde-800);color:#fff;text-align:left;padding:14px 16px;font-weight:700;font-size:.82rem;letter-spacing:.04em}
+.article-content td{padding:13px 16px;border-top:1px solid var(--cinza-200);color:var(--cinza-600)}
+.article-content tr:nth-child(even) td{background:#FAFBFC}
+.article-share{display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding:28px 0;border-top:1px solid var(--cinza-200);border-bottom:1px solid var(--cinza-200);margin:44px 0}
+.article-share strong{font-size:.82rem;letter-spacing:.06em;text-transform:uppercase;color:var(--verde-900)}
+.article-share a{width:40px;height:40px;border-radius:50%;background:var(--areia);display:grid;place-items:center;font-size:.75rem;font-weight:800;color:var(--verde-800);transition:.2s}
+.article-share a:hover{background:var(--verde-700);color:#fff}
+.article-autor{display:flex;gap:20px;align-items:center;background:var(--areia);padding:26px;border-radius:var(--raio);margin-bottom:56px}
+.article-autor-avatar{width:64px;height:64px;flex:0 0 64px;border-radius:50%;background:var(--verde-700);display:grid;place-items:center;color:#fff;font-family:var(--font-tit);font-size:1.4rem;font-weight:700}
+.article-autor strong{display:block;color:var(--verde-900);font-size:1rem;margin-bottom:2px}
+.article-autor span{display:block;font-size:.8rem;color:var(--marrom-500);font-weight:700;letter-spacing:.04em;margin-bottom:8px}
+.article-autor p{font-size:.85rem;margin:0;color:var(--cinza-600)}
+.article-relacionados h2{font-size:1.4rem;color:var(--verde-900);margin-bottom:28px}
+@media(max-width:1024px){
+  .g4{grid-template-columns:repeat(2,1fr)}
+  .logos{grid-template-columns:repeat(3,1fr)}
+  .footer-grid{grid-template-columns:1fr 1fr;gap:36px}
+  .nav{display:none}
+  .menu-btn{display:block}
+  .nav.aberto{display:flex;flex-direction:column;align-items:stretch;position:absolute;top:76px;left:0;right:0;background:#fff;padding:18px 24px 26px;box-shadow:var(--sombra-forte);gap:2px;border-top:1px solid var(--cinza-200)}
+  .nav.aberto a{padding:13px 8px;border-bottom:1px solid var(--cinza-200)}
+  .nav.aberto a.ativo::after{display:none}
+}
+@media(max-width:860px){
+  .section{padding:64px 0}
+  .g2,.g3,.g4{grid-template-columns:1fr}
+  .split{grid-template-columns:1fr;gap:40px}
+  .split-visual{min-height:300px}
+  .numeros .container{grid-template-columns:repeat(2,1fr)}
+  .numero{border-bottom:1px solid rgba(255,255,255,.1)}
+  .numero:nth-child(2){border-right:none}
+  .form-grid{grid-template-columns:1fr}
+  .form-painel{padding:28px 22px}
+  .topo .container{justify-content:center}
+  .topo-lista:last-child{display:none}
+  .cta-final .container{flex-direction:column;align-items:flex-start}
+  .download{flex-wrap:wrap}
+  .download-btn{width:100%}
+  .mvv{grid-template-columns:1fr}
+  .article-capa{height:220px}
+  .article-body{padding:40px 0 64px}
+}
+@media(max-width:560px){
+  .logos{grid-template-columns:repeat(2,1fr)}
+  .footer-grid{grid-template-columns:1fr}
+  .numeros .container{grid-template-columns:1fr}
+  .numero{border-right:none}
+  .hero-botoes .btn{width:100%}
+  .article-meta{gap:14px}
+}
+</style>
+</head>
+<body>
+
+<div class="topo">
+  <div class="container">
+    <ul class="topo-lista">
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>+55 (65) 3025-8800</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>comercial@agrovalecerrado.com.br</li>
+    </ul>
+    <ul class="topo-lista">
+      <li><a href="#/materiais" data-nav>Central do Cliente</a></li>
+      <li><a href="#/contato" data-nav>Trabalhe Conosco</a></li>
+    </ul>
+  </div>
+</div>
+
+<header class="header" id="header">
+  <div class="container">
+    <a href="#/inicio" class="logo" data-nav>
+      <div class="logo-marca">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#8FD3A8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V9"/><path d="M12 9c0-4 3-7 7-7 0 4-3 7-7 7z"/><path d="M12 13c0-3.3-2.7-6-6-6 0 3.3 2.7 6 6 6z"/></svg>
+      </div>
+      <div class="logo-txt"><strong>AgroVale</strong><span>Indústria &amp; Agronegócio</span></div>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#/inicio" data-nav>Início</a>
+      <a href="#/solucoes" data-nav>Produtos &amp; Soluções</a>
+      <a href="#/sobre" data-nav>Sobre</a>
+      <a href="#/sustentabilidade" data-nav>Sustentabilidade</a>
+      <a href="#/cases" data-nav>Cases</a>
+      <a href="#/materiais" data-nav>Materiais</a>
+      <a href="#/blog" data-nav>Blog</a>
+      <a href="#/contato" data-nav>Contato</a>
+    </nav>
+    <div class="header-acoes">
+      <a href="#/contato" class="btn btn--primario" data-nav style="padding:11px 22px;font-size:.83rem">Falar com especialista</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="app">
+
+<section class="page ativo" id="page-inicio">
+  <div class="hero">
+    <div class="hero-bg" id="heroIlustracao"></div>
+    <div class="hero-overlay"></div>
+    <div class="container">
+      <div class="hero-inner">
+        <div class="eyebrow">Cerrado · MT · GO · MS · BA</div>
+        <h1>Insumos, grãos e soluções industriais para quem <em>produz em escala</em>.</h1>
+        <p>Há 28 anos a AgroVale Cerrado integra indústria, originação e assistência técnica para produtores rurais, cooperativas e revendas. Da formulação do fertilizante à entrega do grão no porto.</p>
+        <div class="hero-botoes">
+          <a href="#/contato" class="btn btn--primario" data-nav>Falar com especialista</a>
+          <a href="#/materiais" class="btn btn--ghost-claro" data-nav>Baixar catálogo técnico</a>
+        </div>
+        <div class="hero-selos">
+          <div class="hero-selo"><svg viewBox="0 0 24 24" fill="none" stroke="#8FD3A8" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>ISO 9001 &amp; ISO 14001</div>
+          <div class="hero-selo"><svg viewBox="0 0 24 24" fill="none" stroke="#8FD3A8" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>Mapa de Rastreabilidade</div>
+          <div class="hero-selo"><svg viewBox="0 0 24 24" fill="none" stroke="#8FD3A8" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>Laboratório próprio</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="numeros">
+    <div class="container">
+      <div class="numero"><strong>28</strong><span>anos de operação</span></div>
+      <div class="numero"><strong>3.500+</strong><span>produtores atendidos</span></div>
+      <div class="numero"><strong>1,2 mi</strong><span>toneladas/ano movimentadas</span></div>
+      <div class="numero"><strong>4</strong><span>estados · 7 unidades</span></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Nossas frentes</div>
+        <h2>Soluções integradas do plantio à comercialização</h2>
+        <p>Quatro linhas de negócio que se conectam para reduzir custo por hectare, garantir previsibilidade de insumos e abrir canal de escoamento para a sua produção.</p>
+      </div>
+      <div class="grid g4">
+        <article class="card">
+          <div class="card-icone"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v6"/><path d="M5 22h14"/><path d="M7 22V12a5 5 0 0 1 10 0v10"/></svg></div>
+          <h3>Insumos Agrícolas</h3>
+          <p>Fertilizantes NPK, micronutrientes, corretivos e defensivos com formulação sob demanda e entrega programada.</p>
+          <a href="#/solucoes" class="card-link" data-nav>Ver linha completa</a>
+        </article>
+        <article class="card">
+          <div class="card-icone"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C8 6 6 10 6 14a6 6 0 0 0 12 0c0-4-2-8-6-12z"/></svg></div>
+          <h3>Sementes &amp; Genética</h3>
+          <p>Cultivares de soja, milho e sorgo com curadoria agronômica por região, ciclo e histórico de produtividade.</p>
+          <a href="#/solucoes" class="card-link" data-nav>Ver cultivares</a>
+        </article>
+        <article class="card">
+          <div class="card-icone"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="13" rx="2"/><path d="M3 12h18"/><path d="M8 8V5a4 4 0 0 1 8 0v3"/></svg></div>
+          <h3>Nutrição Animal</h3>
+          <p>Suplementos minerais, proteinados e núcleos para pecuária de corte e leite, com suporte zootécnico em campo.</p>
+          <a href="#/solucoes" class="card-link" data-nav>Ver produtos</a>
+        </article>
+        <article class="card">
+          <div class="card-icone"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-5 3 3 5-7"/></svg></div>
+          <h3>Originação de Grãos</h3>
+          <p>Compra, barter, armazenagem e logística para soja, milho e algodão, com fixação de preço e hedge.</p>
+          <a href="#/solucoes" class="card-link" data-nav>Como funciona</a>
+        </article>
+      </div>
+    </div>
+  </div>
+
+  <div class="section section--areia">
+    <div class="container">
+      <div class="split">
+        <div class="split-visual" id="splitLaboratorio">
+          <div class="split-badge"><strong>-18%</strong><span>custo médio por hectare em fertilizantes após migração para formulação sob demanda</span></div>
+        </div>
+        <div>
+          <div class="eyebrow">Por que a AgroVale</div>
+          <h2>Estrutura industrial própria, decisão técnica e não comercial</h2>
+          <p>Nossa recomendação agronômica é feita por engenheiros agrônomos internos, sem conflito de interesse com a venda. A produção é verticalizada em duas unidades industriais e o controle de qualidade ocorre em laboratório próprio.</p>
+          <ul class="lista-check">
+            <li><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg><span><b>Formulação sob demanda</b> — mistura específica por talhão, com base em análise de solo.</span></li>
+            <li><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg><span><b>Entrega programada</b> — janela logística acordada por safra, com frota dedicada e rastreamento.</span></li>
+            <li><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg><span><b>Barter e financiamento</b> — troca de insumo por grão e linhas de crédito junto a parceiros financeiros.</span></li>
+            <li><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg><span><b>Suporte em campo</b> — 42 agrônomos regionais com atendimento em até 48h.</span></li>
+          </ul>
+          <div style="margin-top:34px"><a href="#/sobre" class="btn btn--secundario" data-nav>Conheça a empresa</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="section-head center">
+        <div class="eyebrow" style="justify-content:center">Resultados de parceiros</div>
+        <h2>Números que sustentam a parceria</h2>
+      </div>
+      <div class="grid g3">
+        <article class="case">
+          <div class="case-tipo">Soja · Mato Grosso</div>
+          <h3>Fazenda Santa Rita — 4.200 ha</h3>
+          <p>Substituição de fornecedor por formulação sob demanda e programa de correção de solo em duas safras.</p>
+          <div class="case-resultado"><div><strong>+9,4</strong><span>sc/ha</span></div><div><strong>-14%</strong><span>custo insumo</span></div></div>
+        </article>
+        <article class="case">
+          <div class="case-tipo">Milho · Goiás</div>
+          <h3>Cooperativa Vale do Rio — 380 cooperados</h3>
+          <p>Contrato de barter coletivo com travamento de preço e entrega escalonada de fertilizantes.</p>
+          <div class="case-resultado"><div><strong>+22%</strong><span>margem/ha</span></div><div><strong>380</strong><span>cooperados</span></div></div>
+        </article>
+        <article class="case">
+          <div class="case-tipo">Pecuária · MS</div>
+          <h3>Grupo Pecuária Nova Aurora — 18 mil cabeças</h3>
+          <p>Reformulação de suplementação mineral e acompanhamento zootécnico trimestral.</p>
+          <div class="case-resultado"><div><strong>+0,31</strong><span>@/cab/ano</span></div><div><strong>-11%</strong><span>custo suplemento</span></div></div>
+        </article>
+      </div>
+      <div class="center" style="margin-top:44px"><a href="#/cases" class="btn btn--secundario" data-nav>Ver todos os cases</a></div>
+    </div>
+  </div>
+
+  <div class="section section--escura">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Sustentabilidade &amp; Qualidade</div>
+        <h2 style="color:#fff">Produzir mais, com rastreabilidade e responsabilidade</h2>
+        <p>Nossos compromissos ambientais e de qualidade são auditados anualmente por organismos independentes.</p>
+      </div>
+      <div class="grid g4">
+        <div class="pilar"><h3>Solo vivo</h3><p>Programa de conservação com plantio direto, rotação de culturas e análise química em 100% dos contratos.</p></div>
+        <div class="pilar"><h3>Água e energia</h3><p>Reuso de água industrial em 68% e matriz energética com 41% de renováveis nas unidades produtivas.</p></div>
+        <div class="pilar"><h3>Carbono</h3><p>Inventário de emissões desde 2019 e projetos de crédito de carbono em áreas de reserva legal.</p></div>
+        <div class="pilar"><h3>Pessoas</h3><p>Programa de segurança do trabalho com 1.900 horas de treinamento por ano e tolerância zero a acidentes.</p></div>
+      </div>
+      <div style="margin-top:44px"><a href="#/sustentabilidade" class="btn btn--claro" data-nav>Ver política completa</a></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Conteúdo técnico</div>
+        <h2>Últimas do blog setorial</h2>
+      </div>
+      <div class="grid g3" id="homeBlogCards"></div>
+      <div class="center" style="margin-top:44px"><a href="#/blog" class="btn btn--secundario" data-nav>Ver todos os artigos</a></div>
+    </div>
+  </div>
+
+  <div class="cta-final">
+    <div class="container">
+      <div>
+        <h2>Vamos dimensionar sua próxima safra?</h2>
+        <p>Nossa equipe técnica monta uma proposta personalizada de insumos, originação ou nutrição animal para o seu perfil de operação.</p>
+      </div>
+      <div class="cta-final-botoes">
+        <a href="#/contato" class="btn btn--claro" data-nav>Solicitar proposta</a>
+        <a href="#/materiais" class="btn btn--ghost-claro" data-nav>Baixar materiais técnicos</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page" id="page-solucoes">
+  <div class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="#/inicio" data-nav>Início</a> / Produtos &amp; Soluções</div>
+      <h1>Produtos &amp; Soluções</h1>
+      <p>Portfólio completo para agricultura e pecuária, com suporte agronômico, ficha técnica e rastreabilidade por lote.</p>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container">
+      <div class="filtros" id="filtros">
+        <button class="filtro ativo" data-filtro="todos">Todos</button>
+        <button class="filtro" data-filtro="fertilizantes">Fertilizantes &amp; Corretivos</button>
+        <button class="filtro" data-filtro="sementes">Sementes</button>
+        <button class="filtro" data-filtro="nutricao">Nutrição Animal</button>
+        <button class="filtro" data-filtro="graos">Originação de Grãos</button>
+        <button class="filtro" data-filtro="servicos">Serviços Técnicos</button>
+      </div>
+      <div class="grid g3" id="catalogo"></div>
+    </div>
+  </div>
+  <div class="section section--areia">
+    <div class="container">
+      <div class="section-head center">
+        <div class="eyebrow" style="justify-content:center">Como trabalhamos</div>
+        <h2>Quatro etapas, do diagnóstico à entrega</h2>
+      </div>
+      <div class="grid g4">
+        <div class="card"><h3>01 · Diagnóstico</h3><p>Levantamento de histórico de produtividade, análise de solo e objetivos da safra.</p></div>
+        <div class="card"><h3>02 · Recomendação</h3><p>Formulação técnica assinada por agrônomo responsável, com simulação de custo por hectare.</p></div>
+        <div class="card"><h3>03 · Contratação</h3><p>Definição do modelo comercial: à vista, barter, CPR ou linha de crédito parceira.</p></div>
+        <div class="card"><h3>04 · Execução</h3><p>Produção, logística programada, entrega na fazenda e acompanhamento em campo.</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="cta-final">
+    <div class="container">
+      <div><h2>Precisa de uma proposta técnica?</h2><p>Envie os dados da sua operação e retornamos com cotação e recomendação agronômica em até 2 dias úteis.</p></div>
+      <div class="cta-final-botoes"><a href="#/contato" class="btn btn--claro" data-nav>Solicitar proposta</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="page" id="page-sobre">
+  <div class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="#/inicio" data-nav>Início</a> / Sobre</div>
+      <h1>28 anos construindo o agronegócio do Cerrado</h1>
+      <p>Da revenda de insumos em Rondonópolis à operação industrial multiestadual com originação de grãos e nutrição animal.</p>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container">
+      <div class="split">
+        <div>
+          <div class="eyebrow">Nossa história</div>
+          <h2>Origem no campo, crescimento com técnica</h2>
+          <p style="margin-bottom:16px">A AgroVale Cerrado nasceu em 1997 como uma pequena revenda de fertilizantes no sul de Mato Grosso, fundada por dois engenheiros agrônomos que enxergaram uma lacuna: o produtor precisava de recomendação técnica independente, não apenas de um fornecedor.</p>
+          <p>Em 2006 inauguramos a primeira unidade de mistura. Em 2014, entramos em originação de grãos. Em 2019, iniciamos a produção de nutrição animal. Hoje somos sete unidades em quatro estados, atendendo mais de 3.500 produtores e 40 cooperativas.</p>
+        </div>
+        <div class="split-visual" id="splitFazenda">
+          <div class="split-badge"><strong>1997</strong><span>fundação em Rondonópolis (MT), com foco em recomendação agronômica independente</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section section--areia">
+    <div class="container">
+      <div class="section-head"><div class="eyebrow">Missão, visão e valores</div><h2>O que orienta cada decisão</h2></div>
+      <div class="mvv">
+        <div class="mvv-item"><h4>Missão</h4><p>Elevar a produtividade e a rentabilidade do produtor rural brasileiro com soluções técnicas integradas, insumos de qualidade e logística confiável.</p></div>
+        <div class="mvv-item"><h4>Visão</h4><p>Ser a referência em agroindústria integrada no Cerrado até 2030, reconhecida pela rastreabilidade, sustentabilidade e solidez das parcerias.</p></div>
+        <div class="mvv-item"><h4>Valores</h4><p>Técnica antes do comercial. Transparência contratual. Segurança e respeito às pessoas. Responsabilidade ambiental. Relação de longo prazo.</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container">
+      <div class="section-head"><div class="eyebrow">Trajetória</div><h2>Marcos da nossa operação</h2></div>
+      <div class="timeline">
+        <div class="timeline-item"><strong>1997</strong><h4>Fundação</h4><p>Abertura da primeira revenda em Rondonópolis (MT), com dois agrônomos e foco em recomendação técnica.</p></div>
+        <div class="timeline-item"><strong>2006</strong><h4>Primeira unidade industrial</h4><p>Inauguração da fábrica de mistura de fertilizantes, com capacidade inicial de 120 mil toneladas/ano.</p></div>
+        <div class="timeline-item"><strong>2014</strong><h4>Originação de grãos</h4><p>Início das operações de compra de soja e milho, com contratos de barter e armazenagem própria.</p></div>
+        <div class="timeline-item"><strong>2019</strong><h4>Nutrição animal</h4><p>Entrada no mercado de suplementos minerais e proteinados, com equipe zootécnica própria.</p></div>
+        <div class="timeline-item"><strong>2023</strong><h4>Expansão para BA e MS</h4><p>Abertura de três unidades e ampliação da capacidade industrial para 1,2 milhão de toneladas/ano.</p></div>
+        <div class="timeline-item"><strong>2025</strong><h4>Plataforma digital do produtor</h4><p>Lançamento do portal de acompanhamento de pedidos, laudos e relatórios agronômicos.</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="section section--escura">
+    <div class="container">
+      <div class="section-head"><div class="eyebrow">Estrutura</div><h2 style="color:#fff">Sete unidades em quatro estados</h2><p>Capacidade industrial, armazenagem e atendimento técnico distribuídos pelas principais regiões produtoras do Cerrado.</p></div>
+      <div class="grid g4">
+        <div class="pilar"><h3>Rondonópolis (MT)</h3><p>Sede administrativa, fábrica de mistura e laboratório de análise de solo e foliar.</p></div>
+        <div class="pilar"><h3>Primavera do Leste (MT)</h3><p>Unidade de mistura, armazém graneleiro e centro de distribuição de insumos.</p></div>
+        <div class="pilar"><h3>Rio Verde (GO)</h3><p>Fábrica de nutrição animal e base de atendimento técnico para o sudoeste goiano.</p></div>
+        <div class="pilar"><h3>Luís Eduardo Magalhães (BA)</h3><p>Originação de grãos, recebimento e expedição para o corredor Norte.</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="cta-final">
+    <div class="container">
+      <div><h2>Quer conhecer nossa operação?</h2><p>Agendamos visitas técnicas às unidades industriais e ao laboratório para parceiros e clientes B2B.</p></div>
+      <div class="cta-final-botoes"><a href="#/contato" class="btn btn--claro" data-nav>Agendar visita</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="page" id="page-sustentabilidade">
+  <div class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="#/inicio" data-nav>Início</a> / Sustentabilidade &amp; Qualidade</div>
+      <h1>Sustentabilidade &amp; Qualidade</h1>
+      <p>Compromissos auditados, controle laboratorial e rastreabilidade completa — da matéria-prima ao grão embarcado.</p>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container">
+      <div class="section-head">
+        <div class="eyebrow">Nossa política</div>
+        <h2>Produzir com responsabilidade não é diferencial. É requisito.</h2>
+        <p>Operamos sob política ambiental e de qualidade formalizada, revisada anualmente e auditada por organismos independentes. Nossos indicadores são públicos para clientes e parceiros comerciais.</p>
+      </div>
+      <div class="grid g3">
+        <article class="card"><div class="card-icone"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C8 6 6 10 6 14a6 6 0 0 0 12 0c0-4-2-8-6-12z"/></svg></div><h3>Conservação de solo</h3><p>Sistema de plantio direto, rotação de culturas, terraceamento e análise química obrigatória em 100% dos contratos de recomendação.</p></article>
+        <article class="card"><div class="card-icone"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v6"/><path d="M5 22h14"/><path d="M7 22V12a5 5 0 0 1 10 0v10"/></svg></div><h3>Gestão hídrica</h3><p>Reuso de água em processos industriais atingiu 68% em 2024. Captação e descarte monitorados por telemetria.</p></article>
+        <article class="card"><div class="card-icone"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-5 3 3 5-7"/></svg></div><h3>Inventário de carbono</h3><p>Mensuração de emissões de Escopo 1 e 2 desde 2019, com meta de redução de 25% até 2030 e projetos de crédito de carbono.</p></article>
+        <article class="card"><div class="card-icone"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="13" rx="2"/><path d="M3 12h18"/><path d="M8 8V5a4 4 0 0 1 8 0v3"/></svg></div><h3>Segurança do trabalho</h3><p>1.900 horas de treinamento por ano, brigada de emergência em todas as unidades e tolerância zero a acidentes graves.</p></article>
+        <article class="card"><div class="card-icone"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg></div><h3>Conformidade legal</h3><p>100% das propriedades fornecedoras com CAR ativo e regularidade fundiária verificada em contratos de originação.</p></article>
+        <article class="card"><div class="card-icone"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V9"/><path d="M12 9c0-4 3-7 7-7 0 4-3 7-7 7z"/><path d="M12 13c0-3.3-2.7-6-6-6 0 3.3 2.7 6 6 6z"/></svg></div><h3>Comunidade</h3><p>Programa de capacitação de produtores, apoio a escolas técnicas agrícolas e compra de fornecedores locais.</p></article>
+      </div>
+    </div>
+  </div>
+  <div class="section section--escura">
+    <div class="container">
+      <div class="split">
+        <div>
+          <div class="eyebrow">Controle de qualidade</div>
+          <h2 style="color:#fff">Laboratório próprio e rastreabilidade por lote</h2>
+          <p>Cada lote de fertilizante, suplemento ou semente passa por análise antes da liberação. O cliente recebe o laudo junto ao produto e pode consultar o histórico pelo portal.</p>
+          <ul class="lista-check" style="margin-top:28px">
+            <li><svg viewBox="0 0 24 24" stroke="#8FD3A8"><path d="M20 6L9 17l-5-5"/></svg><span style="color:#B9CFC2"><b style="color:#fff">Análise de matéria-prima</b> — 100% dos insumos de entrada amostrados.</span></li>
+            <li><svg viewBox="0 0 24 24" stroke="#8FD3A8"><path d="M20 6L9 17l-5-5"/></svg><span style="color:#B9CFC2"><b style="color:#fff">Controle em processo</b> — verificação granulométrica e de umidade a cada batida.</span></li>
+            <li><svg viewBox="0 0 24 24" stroke="#8FD3A8"><path d="M20 6L9 17l-5-5"/></svg><span style="color:#B9CFC2"><b style="color:#fff">Laudo por lote</b> — emitido e arquivado por 5 anos, disponível ao cliente.</span></li>
+            <li><svg viewBox="0 0 24 24" stroke="#8FD3A8"><path d="M20 6L9 17l-5-5"/></svg><span style="color:#B9CFC2"><b style="color:#fff">Retenção de amostra</b> — contraprova guardada por 90 dias após a entrega.</span></li>
+          </ul>
+        </div>
+        <div class="split-visual" id="splitLab2">
+          <div class="split-badge"><strong>100%</strong><span>dos lotes liberados somente após laudo laboratorial aprovado</span></div>
+        </div>
+      </div>
+      <div class="certificacoes">
+        <span class="cert">ISO 9001:2015</span>
+        <span class="cert">ISO 14001:2015</span>
+        <span class="cert">MAPA · Registro de Fertilizantes</span>
+        <span class="cert">RENASEM</span>
+        <span class="cert">Selo CAR Regular</span>
+        <span class="cert">Auditoria SGS Anual</span>
+      </div>
+    </div>
+  </div>
+  <div class="cta-final">
+    <div class="container">
+      <div><h2>Precisa dos nossos relatórios de sustentabilidade?</h2><p>Disponibilizamos o relatório anual de desempenho ambiental e os certificados vigentes para clientes B2B.</p></div>
+      <div class="cta-final-botoes">
+        <a href="#/materiais" class="btn btn--claro" data-nav>Baixar relatório</a>
+        <a href="#/contato" class="btn btn--ghost-claro" data-nav>Falar com compliance</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page" id="page-cases">
+  <div class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="#/inicio" data-nav>Início</a> / Cases &amp; Parceiros</div>
+      <h1>Cases &amp; Parceiros</h1>
+      <p>Resultados reais de produtores, cooperativas e revendas que operam com a AgroVale Cerrado.</p>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container">
+      <div class="grid g3">
+        <article class="case"><div class="case-tipo">Soja · Mato Grosso</div><h3>Fazenda Santa Rita — 4.200 ha</h3><p>Migração de fertilizante padrão de mercado para formulação sob demanda, com análise de solo em 32 talhões e programa de correção em duas safras.</p><div class="case-resultado"><div><strong>+9,4</strong><span>sc/ha</span></div><div><strong>-14%</strong><span>custo insumo</span></div></div></article>
+        <article class="case"><div class="case-tipo">Milho · Goiás</div><h3>Cooperativa Vale do Rio — 380 cooperados</h3><p>Contrato de barter coletivo com travamento de preço, entrega escalonada de fertilizantes e originação garantida da produção.</p><div class="case-resultado"><div><strong>+22%</strong><span>margem/ha</span></div><div><strong>380</strong><span>cooperados</span></div></div></article>
+        <article class="case"><div class="case-tipo">Pecuária · Mato Grosso do Sul</div><h3>Grupo Nova Aurora — 18 mil cabeças</h3><p>Reformulação da suplementação mineral, ajuste de consumo no cocho e acompanhamento zootécnico trimestral em três fazendas.</p><div class="case-resultado"><div><strong>+0,31</strong><span>@/cab/ano</span></div><div><strong>-11%</strong><span>custo suplemento</span></div></div></article>
+        <article class="case"><div class="case-tipo">Algodão · Bahia</div><h3>Grupo Oeste Agro — 6.800 ha</h3><p>Fornecimento de micronutrientes foliares com calendário ajustado ao ciclo do algodoeiro e monitoramento nutricional semanal.</p><div class="case-resultado"><div><strong>+7%</strong><span>produtividade</span></div><div><strong>0</strong><span>paradas de entrega</span></div></div></article>
+        <article class="case"><div class="case-tipo">Revenda · Mato Grosso</div><h3>Agroinsumos Serra Verde</h3><p>Parceria de distribuição regional com apoio técnico da AgroVale, treinamento de equipe e suporte em pós-venda.</p><div class="case-resultado"><div><strong>+38%</strong><span>volume/ano</span></div><div><strong>3</strong><span>municípios</span></div></div></article>
+        <article class="case"><div class="case-tipo">Soja e milho · Mato Grosso</div><h3>Fazenda Três Irmãos — 2.100 ha</h3><p>Assistência agronômica dedicada com relatórios por talhão e ajuste de população de plantas na safrinha.</p><div class="case-resultado"><div><strong>+6,2</strong><span>sc/ha milho</span></div><div><strong>2</strong><span>safras de contrato</span></div></div></article>
+      </div>
+    </div>
+  </div>
+  <div class="section section--areia">
+    <div class="container">
+      <div class="section-head center"><div class="eyebrow" style="justify-content:center">Depoimentos</div><h2>O que dizem nossos parceiros</h2></div>
+      <div class="grid g3">
+        <div class="depoimento"><p>"O diferencial não é o preço, é a recomendação técnica. Em dois anos, mudamos completamente o manejo de fertilidade da fazenda."</p><div class="depoimento-autor"><div class="depoimento-avatar">RC</div><div><strong>Ricardo Camargo</strong><span>Produtor · Primavera do Leste (MT)</span></div></div></div>
+        <div class="depoimento"><p>"O contrato de barter coletivo destravou a safra dos nossos cooperados. A entrega escalonada foi o ponto decisivo."</p><div class="depoimento-autor"><div class="depoimento-avatar">MF</div><div><strong>Marina Fontes</strong><span>Diretora · Cooperativa Vale do Rio (GO)</span></div></div></div>
+        <div class="depoimento"><p>"Como revenda, precisávamos de um parceiro que desse suporte técnico e não competisse conosco. Encontramos na AgroVale."</p><div class="depoimento-autor"><div class="depoimento-avatar">JL</div><div><strong>João Lima</strong><span>Sócio · Agroinsumos Serra Verde (MT)</span></div></div></div>
+      </div>
+      <div class="logos">
+        <div>Coop. Vale do Rio</div><div>Grupo Nova Aurora</div><div>Oeste Agro</div>
+        <div>Serra Verde</div><div>Faz. Santa Rita</div><div>Três Irmãos</div>
+      </div>
+    </div>
+  </div>
+  <div class="cta-final">
+    <div class="container">
+      <div><h2>Quer se tornar um parceiro AgroVale?</h2><p>Buscamos revendas, cooperativas e prestadores de serviço técnico para ampliar nossa cobertura no Cerrado.</p></div>
+      <div class="cta-final-botoes"><a href="#/contato" class="btn btn--claro" data-nav>Quero ser parceiro</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="page" id="page-materiais">
+  <div class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="#/inicio" data-nav>Início</a> / Materiais Técnicos</div>
+      <h1>Central de Materiais Técnicos</h1>
+      <p>Catálogos, fichas técnicas, laudos, certificados e relatórios para download. Acesso liberado após cadastro profissional.</p>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container">
+      <div class="section-head"><div class="eyebrow">Downloads disponíveis</div><h2>Documentação técnica e comercial</h2><p>Materiais atualizados a cada safra. Para versões anteriores ou documentos específicos, fale com nosso time técnico.</p></div>
+      <div class="grid" style="gap:14px">
+        <div class="download"><div class="download-icone">PDF</div><div class="download-info"><strong>Catálogo Geral de Produtos 2025/26</strong><span>Portfólio completo · 48 páginas · 6,2 MB</span></div><button class="download-btn" data-download>Baixar</button></div>
+        <div class="download"><div class="download-icone">PDF</div><div class="download-info"><strong>Ficha Técnica — NPK Formulado sob Demanda</strong><span>Especificações, granulometria e recomendação de aplicação · 1,1 MB</span></div><button class="download-btn" data-download>Baixar</button></div>
+        <div class="download"><div class="download-icone">PDF</div><div class="download-info"><strong>Tabela de Cultivares de Soja — Cerrado</strong><span>Ciclos, grupos de maturidade e zonas de adaptação · 2,4 MB</span></div><button class="download-btn" data-download>Baixar</button></div>
+        <div class="download"><div class="download-icone">PDF</div><div class="download-info"><strong>Manual de Suplementação Mineral — Corte</strong><span>Níveis de garantia, consumo e programas por fase · 3,0 MB</span></div><button class="download-btn" data-download>Baixar</button></div>
+        <div class="download"><div class="download-icone">PDF</div><div class="download-info"><strong>Relatório de Sustentabilidade 2024</strong><span>Indicadores ambientais, sociais e de governança · 4,8 MB</span></div><button class="download-btn" data-download>Baixar</button></div>
+        <div class="download"><div class="download-icone">PDF</div><div class="download-info"><strong>Certificados ISO 9001 e ISO 14001</strong><span>Certificados vigentes e escopo de certificação · 0,9 MB</span></div><button class="download-btn" data-download>Baixar</button></div>
+        <div class="download"><div class="download-icone">PDF</div><div class="download-info"><strong>Guia de Barter e Modelos de Contrato</strong><span>Como funciona a troca de insumo por grão · 1,6 MB</span></div><button class="download-btn" data-download>Baixar</button></div>
+      </div>
+      <div style="margin-top:48px;background:var(--areia);padding:36px;border-radius:var(--raio);border-left:3px solid var(--dourado)">
+        <h3 style="color:var(--verde-900);margin-bottom:10px;font-family:var(--font-tit)">Precisa de um documento específico?</h3>
+        <p style="margin-bottom:20px;font-size:.92rem">Laudos por lote, certificados de análise, especificações customizadas ou documentação para licitações — nosso time técnico atende em até 48h úteis.</p>
+        <a href="#/contato" class="btn btn--secundario" data-nav>Solicitar documento</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page" id="page-blog">
+  <div class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="#/inicio" data-nav>Início</a> / Blog Setorial</div>
+      <h1>Blog Setorial</h1>
+      <p>Conteúdo técnico sobre fertilidade, mercado de grãos, pecuária e gestão de custos no agronegócio.</p>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container">
+      <div class="filtros" id="filtrosBlog">
+        <button class="filtro ativo" data-cat-blog="todos">Todos</button>
+        <button class="filtro" data-cat-blog="Fertilidade">Fertilidade</button>
+        <button class="filtro" data-cat-blog="Mercado">Mercado</button>
+        <button class="filtro" data-cat-blog="Pecuária">Pecuária</button>
+        <button class="filtro" data-cat-blog="Gestão">Gestão</button>
+        <button class="filtro" data-cat-blog="Sustentabilidade">Sustentabilidade</button>
+      </div>
+      <div class="grid g3" id="blogGrid"></div>
+      <div style="margin-top:56px;background:var(--verde-900);color:#fff;padding:44px;border-radius:var(--raio);display:flex;align-items:center;justify-content:space-between;gap:32px;flex-wrap:wrap">
+        <div>
+          <h3 style="color:#fff;font-family:var(--font-tit);font-size:1.35rem;margin-bottom:8px">Receba o Boletim Técnico AgroVale</h3>
+          <p style="color:#B9CFC2;font-size:.9rem;margin:0;max-width:520px">Análises de mercado e conteúdo agronômico enviados duas vezes por mês. Sem spam, sem oferta comercial.</p>
+        </div>
+        <form style="display:flex;gap:10px;flex-wrap:wrap" onsubmit="event.preventDefault();this.reset();alert('Inscrição confirmada. Obrigado!')">
+          <input type="email" required placeholder="Seu e-mail corporativo" style="padding:14px 18px;border-radius:6px;border:none;min-width:250px;font-size:.9rem">
+          <button class="btn btn--claro" type="submit">Assinar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page" id="page-artigo">
+  <div class="article-hero">
+    <div class="container-leitura">
+      <div class="breadcrumb">
+        <a href="#/inicio" data-nav>Início</a> / <a href="#/blog" data-nav>Blog</a> / <span id="artBreadcrumb"></span>
+      </div>
+      <span class="article-cat" id="artCategoria"></span>
+      <h1 id="artTitulo"></h1>
+      <p class="article-resumo" id="artResumo"></p>
+      <div class="article-meta">
+        <span><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg><span id="artData"></span></span>
+        <span><svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg><span id="artLeitura"></span></span>
+        <span><svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg><span id="artAutorNome"></span></span>
+      </div>
+    </div>
+  </div>
+  <div class="article-capa" id="artCapa"></div>
+  <div class="article-body">
+    <div class="container-leitura">
+      <div class="article-content" id="artConteudo"></div>
+      <div class="article-share">
+        <strong>Compartilhar</strong>
+        <a href="#" aria-label="LinkedIn">in</a>
+        <a href="#" aria-label="WhatsApp">wa</a>
+        <a href="#" aria-label="E-mail">@</a>
+        <a href="#" aria-label="Copiar link" id="artCopiar">🔗</a>
+      </div>
+      <div class="article-autor" id="artAutorBox"></div>
+      <div class="article-relacionados">
+        <h2>Continue lendo</h2>
+        <div class="grid g3" id="artRelacionados"></div>
+      </div>
+    </div>
+  </div>
+  <div class="cta-final">
+    <div class="container">
+      <div>
+        <h2>Quer aplicar isso na sua operação?</h2>
+        <p>Nossa equipe técnica pode transformar essas recomendações em um plano de adubação, suplementação ou originação específico para a sua fazenda.</p>
+      </div>
+      <div class="cta-final-botoes">
+        <a href="#/contato" class="btn btn--claro" data-nav>Falar com especialista</a>
+        <a href="#/blog" class="btn btn--ghost-claro" data-nav>Voltar ao blog</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page" id="page-contato">
+  <div class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="#/inicio" data-nav>Início</a> / Contato</div>
+      <h1>Fale com a AgroVale Cerrado</h1>
+      <p>Preencha o formulário e nosso time comercial retorna em até 2 dias úteis com uma proposta técnica personalizada.</p>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container">
+      <div class="grid" style="grid-template-columns:1.5fr 1fr;gap:56px;align-items:start">
+        <div class="form-painel">
+          <h2 style="font-size:1.5rem;margin-bottom:8px;color:var(--verde-900)">Solicite uma proposta</h2>
+          <p style="font-size:.9rem;margin-bottom:30px">Quanto mais detalhes sobre sua operação, mais precisa será nossa recomendação.</p>
+          <div class="form-sucesso" id="formSucesso">Seu aplicativo de e-mail deve abrir com a solicitação preenchida. Revise e envie a mensagem para concluir o contato.</div>
+          <form id="formContato">
+            <div class="form-grid">
+              <div class="campo"><label>Nome completo <span>*</span></label><input name="Nome completo" type="text" required placeholder="Seu nome"></div>
+              <div class="campo"><label>Cargo <span>*</span></label><input name="Cargo" type="text" required placeholder="Ex.: Proprietário, Gerente Agrícola"></div>
+              <div class="campo"><label>Empresa / Propriedade <span>*</span></label><input name="Empresa / Propriedade" type="text" required placeholder="Razão social ou nome da fazenda"></div>
+              <div class="campo"><label>CNPJ / CPF</label><input name="CNPJ / CPF" type="text" placeholder="00.000.000/0000-00"></div>
+              <div class="campo"><label>E-mail corporativo <span>*</span></label><input name="E-mail" type="email" required placeholder="nome@empresa.com.br"></div>
+              <div class="campo"><label>Telefone / WhatsApp <span>*</span></label><input name="Telefone / WhatsApp" type="tel" required placeholder="(00) 00000-0000"></div>
+              <div class="campo"><label>Cidade / UF <span>*</span></label><input name="Cidade / UF" type="text" required placeholder="Ex.: Primavera do Leste / MT"></div>
+              <div class="campo"><label>Perfil de atuação <span>*</span></label>
+                <select name="Perfil de atuação" required><option value="">Selecione</option><option>Produtor rural</option><option>Cooperativa</option><option>Revenda / Distribuidor</option><option>Indústria / Trading</option><option>Prestador de serviço técnico</option><option>Outro</option></select>
+              </div>
+              <div class="campo"><label>Área de interesse <span>*</span></label>
+                <select name="Área de interesse" required><option value="">Selecione</option><option>Fertilizantes e corretivos</option><option>Sementes</option><option>Nutrição animal</option><option>Originação de grãos</option><option>Assistência técnica</option><option>Parceria de distribuição</option></select>
+              </div>
+              <div class="campo"><label>Volume estimado / safra</label><input name="Volume estimado / safra" type="text" placeholder="Ex.: 1.200 t de fertilizante"></div>
+              <div class="campo campo--full"><label>Descreva sua necessidade <span>*</span></label><textarea name="Necessidade" required placeholder="Conte-nos sobre sua operação, área cultivada, cultura, região e o que busca nesta parceria."></textarea></div>
+              <div class="campo campo--full">
+                <label class="check-lgpd">
+                  <input type="checkbox" required>
+                  <span>Autorizo a AgroVale Cerrado a utilizar meus dados para contato comercial, conforme a <strong>LGPD (Lei 13.709/2018)</strong> e a Política de Privacidade da empresa. <span style="color:var(--marrom-500)">*</span></span>
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn--primario btn--bloco" style="margin-top:26px">Enviar solicitação</button>
+          </form>
+        </div>
+        <aside>
+          <h3 style="font-family:var(--font-tit);font-size:1.25rem;color:var(--verde-900);margin-bottom:6px">Canais de atendimento</h3>
+          <p style="font-size:.88rem;margin-bottom:20px">Atendimento comercial de segunda a sexta, das 7h30 às 18h.</p>
+          <div class="contato-item"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg><div><strong>Comercial</strong><span>+55 (65) 3025-8800</span></div></div>
+          <div class="contato-item"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><div><strong>E-mail</strong><span>comercial@agrovalecerrado.com.br</span></div></div>
+          <div class="contato-item"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><div><strong>Sede administrativa</strong><span>Av. dos Agronegócios, 2450 — Distrito Industrial<br>Rondonópolis / MT · CEP 78720-000</span></div></div>
+          <div class="contato-item"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="13" rx="2"/><path d="M3 12h18"/><path d="M8 8V5a4 4 0 0 1 8 0v3"/></svg><div><strong>Originação de grãos</strong><span>originacao@agrovalecerrado.com.br<br>+55 (65) 3025-8812</span></div></div>
+          <div class="contato-item"><svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg><div><strong>Compliance &amp; Qualidade</strong><span>qualidade@agrovalecerrado.com.br</span></div></div>
+          <div class="mapa" id="mapaIlustracao"></div>
+        </aside>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="logo">
+          <div class="logo-marca"><svg viewBox="0 0 24 24" fill="none" stroke="#8FD3A8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V9"/><path d="M12 9c0-4 3-7 7-7 0 4-3 7-7 7z"/><path d="M12 13c0-3.3-2.7-6-6-6 0 3.3 2.7 6 6 6z"/></svg></div>
+          <div class="logo-txt"><strong>AgroVale</strong><span>Indústria &amp; Agronegócio</span></div>
+        </div>
+        <p class="footer-sobre">Indústria e agroindústria integrada de insumos, sementes, nutrição animal e originação de grãos no Cerrado brasileiro. Desde 1997.</p>
+        <div class="footer-social"><a href="#">in</a><a href="#">ig</a><a href="#">yt</a></div>
+      </div>
+      <div><h4>Institucional</h4><ul class="footer-lista"><li><a href="#/sobre" data-nav>Sobre a empresa</a></li><li><a href="#/sobre" data-nav>Nossas unidades</a></li><li><a href="#/cases" data-nav>Cases &amp; Parceiros</a></li><li><a href="#/blog" data-nav>Blog setorial</a></li><li><a href="#/contato" data-nav>Trabalhe conosco</a></li></ul></div>
+      <div><h4>Soluções</h4><ul class="footer-lista"><li><a href="#/solucoes" data-nav>Fertilizantes &amp; Corretivos</a></li><li><a href="#/solucoes" data-nav>Sementes</a></li><li><a href="#/solucoes" data-nav>Nutrição Animal</a></li><li><a href="#/solucoes" data-nav>Originação de Grãos</a></li><li><a href="#/solucoes" data-nav>Assistência Técnica</a></li></ul></div>
+      <div><h4>Contato</h4><ul class="footer-lista"><li>+55 (65) 3025-8800</li><li>comercial@agrovalecerrado.com.br</li><li>Av. dos Agronegócios, 2450<br>Rondonópolis / MT</li><li><a href="#/materiais" data-nav>Central de Materiais</a></li></ul></div>
+    </div>
+    <div class="footer-base">
+      <span>© 2025 AgroVale Cerrado Indústria e Agronegócio Ltda. · CNPJ 00.000.000/0001-00 · Todos os direitos reservados.</span>
+      <span><a href="#">Política de Privacidade</a> · <a href="#">Termos de Uso</a> · <a href="#">LGPD</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+const C = {
+  v9:'#0F2A1D', v8:'#1B4332', v7:'#2D6A4F', v6:'#40916C', v1:'#D8F3DC',
+  m7:'#5C3D1E', m5:'#8B5E34', m2:'#E4D5C3', ar:'#F6F3EE',
+  dou:'#C9A227', dk:'#252B33', cz:'#9AA3AE', czl:'#E2E5E9', br:'#FFFFFF'
+};
+
+const SVGS = {
+
+hero: `
+<svg viewBox="0 0 1440 620" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0F2A1D"/>
+      <stop offset="1" stop-color="#1B4332"/>
+    </linearGradient>
+    <linearGradient id="hField" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2D6A4F"/>
+      <stop offset="1" stop-color="#0F2A1D"/>
+    </linearGradient>
+    <radialGradient id="hSun" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#C9A227" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#C9A227" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1440" height="620" fill="url(#hSky)"/>
+  <circle cx="1080" cy="180" r="180" fill="url(#hSun)"/>
+  <circle cx="1080" cy="180" r="52" fill="#C9A227" opacity=".35"/>
+  <circle cx="1080" cy="180" r="34" fill="#E8C24A" opacity=".6"/>
+  <ellipse cx="300" cy="130" rx="120" ry="22" fill="#8FD3A8" opacity=".07"/>
+  <ellipse cx="420" cy="150" rx="90" ry="16" fill="#8FD3A8" opacity=".06"/>
+  <ellipse cx="1150" cy="110" rx="100" ry="18" fill="#8FD3A8" opacity=".06"/>
+  <path d="M0 340 Q240 260 520 310 T1080 290 T1440 320 L1440 620 L0 620 Z" fill="#0F2A1D" opacity=".55"/>
+  <path d="M0 390 Q300 320 640 360 T1140 350 T1440 380 L1440 620 L0 620 Z" fill="#1B4332" opacity=".75"/>
+  <g transform="translate(880 250)" opacity=".92">
+    <rect x="0" y="60" width="70" height="150" fill="#2D6A4F"/>
+    <ellipse cx="35" cy="60" rx="35" ry="12" fill="#40916C"/>
+    <rect x="80" y="40" width="70" height="170" fill="#1B4332"/>
+    <ellipse cx="115" cy="40" rx="35" ry="12" fill="#2D6A4F"/>
+    <rect x="160" y="80" width="90" height="130" fill="#3E5C48"/>
+    <polygon points="160,80 205,50 250,80" fill="#4A6B54"/>
+    <rect x="180" y="120" width="20" height="20" fill="#C9A227" opacity=".55"/>
+    <rect x="215" y="120" width="20" height="20" fill="#C9A227" opacity=".55"/>
+    <rect x="180" y="155" width="20" height="20" fill="#C9A227" opacity=".55"/>
+    <rect x="215" y="155" width="20" height="20" fill="#C9A227" opacity=".55"/>
+  </g>
+  <g stroke="#0F2A1D" stroke-width="2" opacity=".35">
+    <line x1="0" y1="440" x2="1440" y2="440"/>
+    <line x1="60" y1="425" x2="60" y2="455"/>
+    <line x1="180" y1="425" x2="180" y2="455"/>
+    <line x1="300" y1="425" x2="300" y2="455"/>
+    <line x1="420" y1="425" x2="420" y2="455"/>
+    <line x1="540" y1="425" x2="540" y2="455"/>
+    <line x1="660" y1="425" x2="660" y2="455"/>
+  </g>
+  <path d="M0 470 Q400 430 800 455 T1440 440 L1440 620 L0 620 Z" fill="url(#hField)"/>
+  <g stroke="#8FD3A8" stroke-width="1.2" opacity=".18">
+    <path d="M-50 620 L200 460"/><path d="M50 620 L280 460"/>
+    <path d="M150 620 L360 460"/><path d="M250 620 L440 460"/>
+    <path d="M350 620 L520 460"/><path d="M450 620 L600 460"/>
+    <path d="M550 620 L680 460"/><path d="M650 620 L760 460"/>
+    <path d="M750 620 L840 460"/><path d="M850 620 L920 460"/>
+    <path d="M950 620 L1000 460"/><path d="M1050 620 L1080 460"/>
+    <path d="M1150 620 L1160 460"/><path d="M1250 620 L1240 460"/>
+    <path d="M1350 620 L1320 460"/><path d="M1450 620 L1400 460"/>
+  </g>
+  <g fill="#0F2A1D" opacity=".9">
+    <ellipse cx="120" cy="420" rx="34" ry="52"/>
+    <rect x="116" y="455" width="8" height="30" fill="#5C3D1E"/>
+    <ellipse cx="200" cy="435" rx="26" ry="42"/>
+    <rect x="197" y="465" width="6" height="24" fill="#5C3D1E"/>
+  </g>
+</svg>`,
+
+laboratorio: `
+<svg viewBox="0 0 700 500" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="labBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1B4332"/>
+      <stop offset="1" stop-color="#0F2A1D"/>
+    </linearGradient>
+    <linearGradient id="labLiq" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8FD3A8"/>
+      <stop offset="1" stop-color="#40916C"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="500" fill="url(#labBg)"/>
+  <g stroke="#8FD3A8" stroke-width="1" opacity=".07">
+    <line x1="0" y1="100" x2="700" y2="100"/><line x1="0" y1="200" x2="700" y2="200"/>
+    <line x1="0" y1="300" x2="700" y2="300"/><line x1="0" y1="400" x2="700" y2="400"/>
+    <line x1="120" y1="0" x2="120" y2="500"/><line x1="280" y1="0" x2="280" y2="500"/>
+    <line x1="440" y1="0" x2="440" y2="500"/><line x1="600" y1="0" x2="600" y2="500"/>
+  </g>
+  <rect x="0" y="380" width="700" height="14" fill="#3E5C48"/>
+  <rect x="0" y="394" width="700" height="106" fill="#1B4332" opacity=".7"/>
+  <g transform="translate(150 250)">
+    <path d="M0 0 L0 90 Q0 110 20 110 L60 110 Q80 110 80 90 L80 0 Z" fill="#D8F3DC" opacity=".14" stroke="#8FD3A8" stroke-width="2.5"/>
+    <path d="M2 55 L2 90 Q2 108 20 108 L60 108 Q78 108 78 90 L78 55 Z" fill="url(#labLiq)" opacity=".65"/>
+    <ellipse cx="40" cy="0" rx="40" ry="9" fill="#D8F3DC" opacity=".22" stroke="#8FD3A8" stroke-width="2.5"/>
+    <circle cx="30" cy="80" r="3.5" fill="#8FD3A8" opacity=".8"/>
+    <circle cx="50" cy="70" r="3" fill="#8FD3A8" opacity=".8"/>
+    <circle cx="40" cy="90" r="2.5" fill="#8FD3A8" opacity=".8"/>
+  </g>
+  <g transform="translate(300 220)">
+    <rect x="0" y="0" width="26" height="140" rx="13" fill="#D8F3DC" opacity=".14" stroke="#8FD3A8" stroke-width="2.5"/>
+    <rect x="2" y="60" width="22" height="78" rx="11" fill="#C9A227" opacity=".55"/>
+    <rect x="-4" y="-6" width="34" height="10" rx="3" fill="#8FD3A8" opacity=".5"/>
+  </g>
+  <g transform="translate(350 240)">
+    <rect x="0" y="0" width="26" height="120" rx="13" fill="#D8F3DC" opacity=".14" stroke="#8FD3A8" stroke-width="2.5"/>
+    <rect x="2" y="40" width="22" height="78" rx="11" fill="#40916C" opacity=".65"/>
+    <rect x="-4" y="-6" width="34" height="10" rx="3" fill="#8FD3A8" opacity=".5"/>
+  </g>
+  <g transform="translate(400 260)">
+    <rect x="0" y="0" width="26" height="100" rx="13" fill="#D8F3DC" opacity=".14" stroke="#8FD3A8" stroke-width="2.5"/>
+    <rect x="2" y="55" width="22" height="43" rx="11" fill="#8B5E34" opacity=".65"/>
+    <rect x="-4" y="-6" width="34" height="10" rx="3" fill="#8FD3A8" opacity=".5"/>
+  </g>
+  <g transform="translate(500 230)">
+    <rect x="0" y="0" width="110" height="150" rx="6" fill="#E4D5C3"/>
+    <rect x="0" y="0" width="110" height="150" rx="6" fill="none" stroke="#8B5E34" stroke-width="2"/>
+    <rect x="40" y="-8" width="30" height="14" rx="3" fill="#5C3D1E"/>
+    <line x1="14" y1="35" x2="96" y2="35" stroke="#8B5E34" stroke-width="2" opacity=".55"/>
+    <line x1="14" y1="55" x2="96" y2="55" stroke="#8B5E34" stroke-width="2" opacity=".55"/>
+    <line x1="14" y1="75" x2="80" y2="75" stroke="#8B5E34" stroke-width="2" opacity=".55"/>
+    <line x1="14" y1="95" x2="96" y2="95" stroke="#8B5E34" stroke-width="2" opacity=".55"/>
+    <circle cx="85" cy="125" r="16" fill="#40916C" opacity=".85"/>
+    <path d="M78 125 L83 130 L93 119" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(80 120)" opacity=".18">
+    <path d="M0 60 Q30 0 80 -10 Q60 40 20 60 Z" fill="#8FD3A8"/>
+    <path d="M0 60 Q40 40 80 -10" stroke="#8FD3A8" stroke-width="2" fill="none"/>
+  </g>
+  <g transform="translate(560 100)" opacity=".14">
+    <path d="M0 50 Q20 0 60 -8 Q45 35 15 50 Z" fill="#8FD3A8"/>
+    <path d="M0 50 Q30 30 60 -8" stroke="#8FD3A8" stroke-width="2" fill="none"/>
+  </g>
+</svg>`,
+
+fazenda: `
+<svg viewBox="0 0 700 500" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fzSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2D6A4F"/>
+      <stop offset="1" stop-color="#0F2A1D"/>
+    </linearGradient>
+    <linearGradient id="fzGr" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#40916C"/>
+      <stop offset="1" stop-color="#1B4332"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="500" fill="url(#fzSky)"/>
+  <circle cx="560" cy="110" r="90" fill="#C9A227" opacity=".18"/>
+  <circle cx="560" cy="110" r="42" fill="#C9A227" opacity=".4"/>
+  <path d="M0 260 L120 170 L220 250 L340 150 L460 240 L580 160 L700 250 L700 500 L0 500 Z" fill="#0F2A1D" opacity=".55"/>
+  <path d="M0 340 Q175 300 350 325 T700 320 L700 500 L0 500 Z" fill="url(#fzGr)"/>
+  <g stroke="#D8F3DC" stroke-width="1.5" opacity=".22">
+    <path d="M-20 500 L200 340"/><path d="M80 500 L260 340"/>
+    <path d="M180 500 L320 340"/><path d="M280 500 L380 340"/>
+    <path d="M380 500 L440 340"/><path d="M480 500 L500 340"/>
+    <path d="M580 500 L560 340"/><path d="M680 500 L620 340"/>
+  </g>
+  <g transform="translate(420 300)">
+    <rect x="0" y="30" width="130" height="70" fill="#5C3D1E"/>
+    <polygon points="-10,30 65,-10 140,30" fill="#8B5E34"/>
+    <rect x="20" y="55" width="24" height="45" fill="#2D6A4F"/>
+    <rect x="60" y="55" width="24" height="24" fill="#C9A227" opacity=".7"/>
+    <rect x="94" y="55" width="24" height="24" fill="#C9A227" opacity=".7"/>
+    <rect x="60" y="84" width="24" height="16" fill="#3E5C48"/>
+    <rect x="94" y="84" width="24" height="16" fill="#3E5C48"/>
+    <rect x="98" y="0" width="14" height="34" fill="#5C3D1E"/>
+  </g>
+  <g fill="#0F2A1D">
+    <ellipse cx="100" cy="330" rx="30" ry="46"/>
+    <rect x="96" y="358" width="7" height="26" fill="#3E2A14"/>
+    <ellipse cx="180" cy="345" rx="22" ry="36"/>
+    <rect x="177" y="368" width="6" height="22" fill="#3E2A14"/>
+    <ellipse cx="640" cy="335" rx="26" ry="42"/>
+    <rect x="637" y="360" width="6" height="24" fill="#3E2A14"/>
+  </g>
+  <path d="M0 460 Q350 440 700 455 L700 500 L0 500 Z" fill="#3E2A14" opacity=".45"/>
+</svg>`,
+
+mapa: `
+<svg viewBox="0 0 700 400" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+  <rect width="700" height="400" fill="#F6F3EE"/>
+  <g stroke="#E2E5E9" stroke-width="1.5">
+    <line x1="0" y1="60" x2="700" y2="60"/><line x1="0" y1="120" x2="700" y2="120"/>
+    <line x1="0" y1="180" x2="700" y2="180"/><line x1="0" y1="240" x2="700" y2="240"/>
+    <line x1="0" y1="300" x2="700" y2="300"/><line x1="0" y1="360" x2="700" y2="360"/>
+    <line x1="80" y1="0" x2="80" y2="400"/><line x1="180" y1="0" x2="180" y2="400"/>
+    <line x1="280" y1="0" x2="280" y2="400"/><line x1="380" y1="0" x2="380" y2="400"/>
+    <line x1="480" y1="0" x2="480" y2="400"/><line x1="580" y1="0" x2="580" y2="400"/>
+  </g>
+  <path d="M-20 200 Q200 180 380 240 T720 220" stroke="#D8F3DC" stroke-width="20" fill="none" opacity=".85"/>
+  <path d="M-20 200 Q200 180 380 240 T720 220" stroke="#40916C" stroke-width="3" fill="none" stroke-dasharray="10 10" opacity=".6"/>
+  <path d="M300 -20 Q320 150 280 420" stroke="#D8F3DC" stroke-width="16" fill="none" opacity=".85"/>
+  <path d="M300 -20 Q320 150 280 420" stroke="#40916C" stroke-width="3" fill="none" stroke-dasharray="10 10" opacity=".6"/>
+  <g>
+    <path d="M180 130 c0 -18 14 -30 30 -30 s30 12 30 30 c0 22 -30 48 -30 48 s-30 -26 -30 -48 z" fill="#2D6A4F"/>
+    <circle cx="210" cy="128" r="9" fill="#fff"/>
+    <text x="210" y="132" font-family="Arial" font-size="10" font-weight="bold" fill="#2D6A4F" text-anchor="middle">1</text>
+  </g>
+  <g>
+    <path d="M420 240 c0 -18 14 -30 30 -30 s30 12 30 30 c0 22 -30 48 -30 48 s-30 -26 -30 -48 z" fill="#2D6A4F"/>
+    <circle cx="450" cy="238" r="9" fill="#fff"/>
+    <text x="450" y="242" font-family="Arial" font-size="10" font-weight="bold" fill="#2D6A4F" text-anchor="middle">2</text>
+  </g>
+  <g>
+    <path d="M540 130 c0 -18 14 -30 30 -30 s30 12 30 30 c0 22 -30 48 -30 48 s-30 -26 -30 -48 z" fill="#8B5E34"/>
+    <circle cx="570" cy="128" r="9" fill="#fff"/>
+    <text x="570" y="132" font-family="Arial" font-size="10" font-weight="bold" fill="#8B5E34" text-anchor="middle">3</text>
+  </g>
+  <g>
+    <path d="M280 320 c0 -18 14 -30 30 -30 s30 12 30 30 c0 22 -30 48 -30 48 s-30 -26 -30 -48 z" fill="#8B5E34"/>
+    <circle cx="310" cy="318" r="9" fill="#fff"/>
+    <text x="310" y="322" font-family="Arial" font-size="10" font-weight="bold" fill="#8B5E34" text-anchor="middle">4</text>
+  </g>
+  <g font-family="Arial" font-size="11" fill="#4B5563">
+    <rect x="20" y="360" width="160" height="26" rx="4" fill="#fff" opacity=".9"/>
+    <text x="30" y="377">1 · Rondonópolis (MT)</text>
+    <rect x="190" y="360" width="180" height="26" rx="4" fill="#fff" opacity=".9"/>
+    <text x="200" y="377">2 · Primavera do Leste (MT)</text>
+    <rect x="380" y="360" width="130" height="26" rx="4" fill="#fff" opacity=".9"/>
+    <text x="390" y="377">3 · Rio Verde (GO)</text>
+    <rect x="520" y="360" width="160" height="26" rx="4" fill="#fff" opacity=".9"/>
+    <text x="530" y="377">4 · L. E. Magalhães (BA)</text>
+  </g>
+</svg>`,
+
+npk: `
+<svg viewBox="0 0 400 220" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="npkBg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#2D6A4F"/><stop offset="1" stop-color="#0F2A1D"/>
+  </linearGradient></defs>
+  <rect width="400" height="220" fill="url(#npkBg)"/>
+  <path d="M0 170 Q100 155 200 165 T400 160 L400 220 L0 220 Z" fill="#0F2A1D" opacity=".55"/>
+  <g transform="translate(90 40)">
+    <path d="M0 20 Q0 5 15 5 L130 5 Q145 5 145 20 L145 145 Q145 158 132 158 L13 158 Q0 158 0 145 Z" fill="#E4D5C3"/>
+    <path d="M0 20 Q0 5 15 5 L130 5 Q145 5 145 20 L145 40 L0 40 Z" fill="#8B5E34"/>
+    <text x="72" y="30" font-family="Georgia" font-size="15" font-weight="bold" fill="#fff" text-anchor="middle">AGROVALE</text>
+    <text x="72" y="82" font-family="Georgia" font-size="26" font-weight="bold" fill="#2D6A4F" text-anchor="middle">NPK</text>
+    <text x="72" y="106" font-family="Arial" font-size="13" font-weight="bold" fill="#5C3D1E" text-anchor="middle">20 - 05 - 20</text>
+    <line x1="22" y1="118" x2="122" y2="118" stroke="#8B5E34" stroke-width="1.5" opacity=".55"/>
+    <text x="72" y="134" font-family="Arial" font-size="9" fill="#8B5E34" text-anchor="middle" letter-spacing="1">FORMULADO SOB DEMANDA</text>
+  </g>
+  <g>
+    <circle cx="270" cy="120" r="10" fill="#40916C"/><circle cx="296" cy="135" r="9" fill="#C9A227"/>
+    <circle cx="312" cy="112" r="10" fill="#40916C"/><circle cx="285" cy="98" r="9" fill="#8B5E34"/>
+    <circle cx="320" cy="140" r="10" fill="#40916C"/><circle cx="345" cy="120" r="9" fill="#C9A227"/>
+    <circle cx="290" cy="160" r="9" fill="#40916C"/><circle cx="330" cy="165" r="8" fill="#8B5E34"/>
+    <circle cx="360" cy="145" r="9" fill="#40916C"/>
+  </g>
+</svg>`,
+
+calcario: `
+<svg viewBox="0 0 400 220" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="clcBg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#8B5E34"/><stop offset="1" stop-color="#5C3D1E"/>
+  </linearGradient></defs>
+  <rect width="400" height="220" fill="url(#clcBg)"/>
+  <path d="M0 165 Q200 145 400 160 L400 220 L0 220 Z" fill="#3E2A14" opacity=".65"/>
+  <g>
+    <polygon points="70,160 105,90 155,95 175,160" fill="#E4D5C3"/>
+    <polygon points="105,90 155,95 140,140 100,135" fill="#F6F3EE" opacity=".7"/>
+    <polygon points="180,165 210,105 260,110 275,165" fill="#D4C0A8"/>
+    <polygon points="210,105 260,110 245,150 205,148" fill="#E4D5C3" opacity=".8"/>
+    <polygon points="280,168 305,120 350,125 365,168" fill="#E4D5C3"/>
+  </g>
+  <g>
+    <polygon points="330,190 345,168 370,172 380,192" fill="#D4C0A8"/>
+    <polygon points="35,190 50,168 75,172 88,192" fill="#C7AE93"/>
+    <polygon points="130,195 145,175 165,178 175,197" fill="#D4C0A8"/>
+  </g>
+  <g transform="translate(290 40)">
+    <rect x="0" y="0" width="90" height="60" rx="6" fill="#fff" opacity=".93"/>
+    <text x="45" y="24" font-family="Arial" font-size="9" fill="#5C3D1E" text-anchor="middle" letter-spacing="1" font-weight="bold">PRNT MÉDIO</text>
+    <text x="45" y="48" font-family="Georgia" font-size="22" font-weight="bold" fill="#2D6A4F" text-anchor="middle">88%</text>
+  </g>
+</svg>`,
+
+micro: `
+<svg viewBox="0 0 400 220" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="micBg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#1B4332"/><stop offset="1" stop-color="#0F2A1D"/>
+  </linearGradient></defs>
+  <rect width="400" height="220" fill="url(#micBg)"/>
+  <g transform="translate(200 110)">
+    <path d="M0 80 C -50 20 -50 -40 0 -80 C 50 -40 50 20 0 80 Z" fill="#40916C"/>
+    <path d="M0 80 C -30 30 -30 -30 0 -80" stroke="#8FD3A8" stroke-width="2" fill="none" opacity=".6"/>
+    <path d="M0 80 L 0 -80" stroke="#8FD3A8" stroke-width="2" fill="none" opacity=".55"/>
+    <path d="M0 40 L -22 10" stroke="#8FD3A8" stroke-width="1.5" fill="none" opacity=".5"/>
+    <path d="M0 20 L 22 -10" stroke="#8FD3A8" stroke-width="1.5" fill="none" opacity=".5"/>
+    <path d="M0 0 L -22 -30" stroke="#8FD3A8" stroke-width="1.5" fill="none" opacity=".5"/>
+  </g>
+  <g>
+    <circle cx="120" cy="70" r="8" fill="#C9A227" opacity=".9"/>
+    <circle cx="295" cy="90" r="7" fill="#C9A227" opacity=".9"/>
+    <circle cx="140" cy="150" r="6" fill="#8FD3A8" opacity=".9"/>
+    <circle cx="270" cy="160" r="9" fill="#8FD3A8" opacity=".9"/>
+    <circle cx="100" cy="120" r="5" fill="#D8F3DC" opacity=".85"/>
+    <circle cx="310" cy="130" r="6" fill="#D8F3DC" opacity=".85"/>
+  </g>
+  <g font-family="Georgia" font-weight="bold" font-size="18" opacity=".55">
+    <text x="70" y="50" fill="#C9A227">B</text>
+    <text x="335" y="60" fill="#C9A227">Zn</text>
+    <text x="60" y="185" fill="#8FD3A8">Mn</text>
+    <text x="320" y="200" fill="#8FD3A8">Mo</text>
+  </g>
+</svg>`,
+
+soja: `
+<svg viewBox="0 0 400 220" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="sjBg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#C9A227"/><stop offset="1" stop-color="#7A5F12"/>
+  </linearGradient></defs>
+  <rect width="400" height="220" fill="url(#sjBg)"/>
+  <path d="M0 170 Q200 150 400 165 L400 220 L0 220 Z" fill="#5C3D1E" opacity=".5"/>
+  <g transform="translate(200 110)">
+    <path d="M0 100 L 0 -60" stroke="#2D6A4F" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <ellipse cx="-25" cy="-10" rx="22" ry="12" fill="#40916C" transform="rotate(-30 -25 -10)"/>
+    <ellipse cx="25" cy="-30" rx="22" ry="12" fill="#40916C" transform="rotate(30 25 -30)"/>
+    <ellipse cx="-22" cy="30" rx="20" ry="11" fill="#40916C" transform="rotate(-25 -22 30)"/>
+    <ellipse cx="22" cy="50" rx="20" ry="11" fill="#40916C" transform="rotate(25 22 50)"/>
+    <ellipse cx="0" cy="-50" rx="18" ry="10" fill="#2D6A4F" transform="rotate(0 0 -50)"/>
+    <g transform="translate(-38 -18) rotate(-25)">
+      <ellipse cx="0" cy="0" rx="24" ry="9" fill="#5C3D1E"/>
+      <circle cx="-14" cy="0" r="5" fill="#C9A227"/>
+      <circle cx="-4" cy="0" r="5" fill="#C9A227"/>
+      <circle cx="6" cy="0" r="5" fill="#C9A227"/>
+      <circle cx="15" cy="0" r="4.5" fill="#C9A227"/>
+    </g>
+    <g transform="translate(38 -22) rotate(25)">
+      <ellipse cx="0" cy="0" rx="24" ry="9" fill="#5C3D1E"/>
+      <circle cx="-14" cy="0" r="5" fill="#C9A227"/>
+      <circle cx="-4" cy="0" r="5" fill="#C9A227"/>
+      <circle cx="6" cy="0" r="5" fill="#C9A227"/>
+      <circle cx="15" cy="0" r="4.5" fill="#C9A227"/>
+    </g>
+    <g transform="translate(-34 42) rotate(-20)">
+      <ellipse cx="0" cy="0" rx="20" ry="8" fill="#5C3D1E"/>
+      <circle cx="-10" cy="0" r="4.5" fill="#C9A227"/>
+      <circle cx="-1" cy="0" r="4.5" fill="#C9A227"/>
+      <circle cx="8" cy="0" r="4.5" fill="#C9A227"/>
+    </g>
+  </g>
+</svg>`,
+
+milho: `
+<svg viewBox="0 0 400 220" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="mlhBg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#B08D1E"/><stop offset="1" stop-color="#5C3D1E"/>
+  </linearGradient></defs>
+  <rect width="400" height="220" fill="url(#mlhBg)"/>
+  <path d="M0 175 Q200 155 400 170 L400 220 L0 220 Z" fill="#3E2A14" opacity=".55"/>
+  <g transform="translate(200 110)">
+    <ellipse cx="0" cy="0" rx="38" ry="80" fill="#C9A227"/>
+    <g fill="#E8C24A">
+      <circle cx="-18" cy="-55" r="5"/><circle cx="-4" cy="-55" r="5"/><circle cx="10" cy="-55" r="5"/>
+      <circle cx="-25" cy="-40" r="5.5"/><circle cx="-11" cy="-40" r="5.5"/><circle cx="3" cy="-40" r="5.5"/><circle cx="17" cy="-40" r="5.5"/>
+      <circle cx="-28" cy="-24" r="6"/><circle cx="-14" cy="-24" r="6"/><circle cx="0" cy="-24" r="6"/><circle cx="14" cy="-24" r="6"/><circle cx="26" cy="-24" r="5.5"/>
+      <circle cx="-30" cy="-7" r="6"/><circle cx="-16" cy="-7" r="6"/><circle cx="-2" cy="-7" r="6"/><circle cx="12" cy="-7" r="6"/><circle cx="26" cy="-7" r="5.5"/>
+      <circle cx="-28" cy="10" r="6"/><circle cx="-14" cy="10" r="6"/><circle cx="0" cy="10" r="6"/><circle cx="14" cy="10" r="6"/><circle cx="26" cy="10" r="5.5"/>
+      <circle cx="-25" cy="26" r="5.5"/><circle cx="-11" cy="26" r="5.5"/><circle cx="3" cy="26" r="5.5"/><circle cx="17" cy="26" r="5.5"/>
+      <circle cx="-18" cy="42" r="5"/><circle cx="-4" cy="42" r="5"/><circle cx="10" cy="42" r="5"/>
+      <circle cx="-8" cy="56" r="4.5"/><circle cx="4" cy="56" r="4.5"/>
+    </g>
+    <path d="M-38 -20 Q-70 -80 -35 -95 Q-40 -40 -32 -10" fill="#2D6A4F" opacity=".85"/>
+    <path d="M38 -20 Q70 -80 35 -95 Q40 -40 32 -10" fill="#2D6A4F" opacity=".85"/>
+    <path d="M-30 60 Q-60 20 -40 -10 Q-35 30 -25 55" fill="#40916C" opacity=".7"/>
+    <path d="M30 60 Q60 20 40 -10 Q35 30 25 55" fill="#40916C" opacity=".7"/>
+  </g>
+</svg>`,
+
+mineral: `
+<svg viewBox="0 0 400 220" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="mnBg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#5C3D1E"/><stop offset="1" stop-color="#2D2015"/>
+  </linearGradient></defs>
+  <rect width="400" height="220" fill="url(#mnBg)"/>
+  <path d="M0 155 Q100 140 200 150 T400 145 L400 220 L0 220 Z" fill="#2D6A4F"/>
+  <path d="M0 175 Q200 160 400 170 L400 220 L0 220 Z" fill="#1B4332"/>
+  <g transform="translate(200 105)">
+    <ellipse cx="0" cy="0" rx="80" ry="42" fill="#E4D5C3"/>
+    <ellipse cx="0" cy="0" rx="80" ry="42" fill="none" stroke="#8B5E34" stroke-width="2"/>
+    <g transform="translate(-85 -10)">
+      <ellipse cx="0" cy="0" rx="30" ry="26" fill="#E4D5C3"/>
+      <ellipse cx="0" cy="0" rx="30" ry="26" fill="none" stroke="#8B5E34" stroke-width="2"/>
+      <path d="M-15 -20 Q-25 -40 -12 -42 Q-8 -30 -4 -24" fill="#8B5E34"/>
+      <path d="M15 -20 Q25 -40 12 -42 Q8 -30 4 -24" fill="#8B5E34"/>
+      <circle cx="-14" cy="-5" r="3" fill="#252B33"/>
+      <circle cx="14" cy="-5" r="3" fill="#252B33"/>
+      <ellipse cx="0" cy="12" rx="16" ry="9" fill="#8B5E34"/>
+      <circle cx="-8" cy="10" r="1.8" fill="#3E2A14"/>
+      <circle cx="8" cy="10" r="1.8" fill="#3E2A14"/>
+    </g>
+    <rect x="-60" y="28" width="9" height="38" fill="#8B5E34"/>
+    <rect x="-30" y="30" width="9" height="36" fill="#8B5E34"/>
+    <rect x="30" y="30" width="9" height="36" fill="#8B5E34"/>
+    <rect x="60" y="28" width="9" height="38" fill="#8B5E34"/>
+    <path d="M78 -12 Q95 -5 92 20" stroke="#8B5E34" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <ellipse cx="-30" cy="-15" rx="16" ry="10" fill="#8B5E34" opacity=".65"/>
+    <ellipse cx="35" cy="8" rx="20" ry="12" fill="#8B5E34" opacity=".55"/>
+  </g>
+  <g transform="translate(280 145)">
+    <rect x="0" y="0" width="90" height="30" fill="#5C3D1E"/>
+    <rect x="0" y="0" width="90" height="8" fill="#8B5E34"/>
+    <ellipse cx="45" cy="8" rx="38" ry="4" fill="#C9A227" opacity=".65"/>
+  </g>
+</svg>`,
+
+proteinado: `
+<svg viewBox="0 0 400 220" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="ptBg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#1B4332"/><stop offset="1" stop-color="#0F2A1D"/>
+  </linearGradient></defs>
+  <rect width="400" height="220" fill="url(#ptBg)"/>
+  <path d="M0 155 Q100 145 200 152 T400 148 L400 220 L0 220 Z" fill="#2D6A4F"/>
+  <path d="M0 178 Q200 165 400 172 L400 220 L0 220 Z" fill="#1B4332"/>
+  <g transform="translate(50 30)">
+    <path d="M0 22 Q0 8 14 8 L110 8 Q124 8 124 22 L124 148 Q124 160 112 160 L12 160 Q0 160 0 148 Z" fill="#E4D5C3"/>
+    <path d="M0 22 Q0 8 14 8 L110 8 Q124 8 124 22 L124 40 L0 40 Z" fill="#8B5E34"/>
+    <text x="62" y="31" font-family="Georgia" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">AGROVALE</text>
+    <text x="62" y="76" font-family="Georgia" font-size="18" font-weight="bold" fill="#2D6A4F" text-anchor="middle">PROTEINADO</text>
+    <text x="62" y="98" font-family="Arial" font-size="12" font-weight="bold" fill="#5C3D1E" text-anchor="middle">PB 30%</text>
+    <line x1="18" y1="110" x2="106" y2="110" stroke="#8B5E34" stroke-width="1.5" opacity=".5"/>
+    <text x="62" y="128" font-family="Arial" font-size="9" fill="#8B5E34" text-anchor="middle" letter-spacing="1">SECA · 90 DIAS</text>
+    <text x="62" y="146" font-family="Arial" font-size="9" fill="#8B5E34" text-anchor="middle">SACO 30 KG</text>
+  </g>
+  <g transform="translate(290 110)">
+    <ellipse cx="0" cy="0" rx="58" ry="32" fill="#E4D5C3" opacity=".9"/>
+    <g transform="translate(-62 -8)">
+      <ellipse cx="0" cy="0" rx="22" ry="19" fill="#E4D5C3" opacity=".9"/>
+      <path d="M-12 -16 Q-20 -30 -8 -31 Q-5 -22 -3 -18" fill="#8B5E34"/>
+      <path d="M12 -16 Q20 -30 8 -31 Q5 -22 3 -18" fill="#8B5E34"/>
+    </g>
+    <rect x="-42" y="22" width="7" height="26" fill="#8B5E34"/>
+    <rect x="-18" y="24" width="7" height="24" fill="#8B5E34"/>
+    <rect x="20" y="24" width="7" height="24" fill="#8B5E34"/>
+    <rect x="42" y="22" width="7" height="26" fill="#8B5E34"/>
+  </g>
+</svg>`,
+
+graos: `
+<svg viewBox="0 0 400 220" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="grBg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2D6A4F"/><stop offset="1" stop-color="#0F2A1D"/>
+  </linearGradient></defs>
+  <rect width="400" height="220" fill="url(#grBg)"/>
+  <g transform="translate(40 40)">
+    <rect x="0" y="30" width="46" height="140" fill="#1B4332"/>
+    <ellipse cx="23" cy="30" rx="23" ry="8" fill="#2D6A4F"/>
+    <rect x="55" y="15" width="46" height="155" fill="#1B4332"/>
+    <ellipse cx="78" cy="15" rx="23" ry="8" fill="#2D6A4F"/>
+    <rect x="110" y="45" width="46" height="125" fill="#1B4332"/>
+    <ellipse cx="133" cy="45" rx="23" ry="8" fill="#2D6A4F"/>
+    <line x1="50" y1="40" x2="50" y2="170" stroke="#8FD3A8" stroke-width="1" opacity=".35"/>
+  </g>
+  <g transform="translate(200 110)">
+    <polygon points="0,0 130,0 145,55 -5,55" fill="#C9A227"/>
+    <polygon points="0,0 130,0 145,55 -5,55" fill="none" stroke="#5C3D1E" stroke-width="2"/>
+    <path d="M5 -6 Q65 -22 125 -6 L130 0 L0 0 Z" fill="#C9A227"/>
+    <circle cx="40" cy="-4" r="2.5" fill="#E8C24A"/>
+    <circle cx="70" cy="-8" r="2.5" fill="#E8C24A"/>
+    <circle cx="100" cy="-5" r="2.5" fill="#E8C24A"/>
+    <rect x="-55" y="10" width="58" height="45" fill="#2D6A4F"/>
+    <rect x="-50" y="16" width="22" height="20" fill="#8FD3A8" opacity=".7"/>
+    <rect x="-22" y="16" width="22" height="20" fill="#8FD3A8" opacity=".7"/>
+    <circle cx="-30" cy="65" r="14" fill="#252B33"/>
+    <circle cx="-30" cy="65" r="5" fill="#4B5563"/>
+    <circle cx="50" cy="65" r="14" fill="#252B33"/>
+    <circle cx="50" cy="65" r="5" fill="#4B5563"/>
+    <circle cx="100" cy="65" r="14" fill="#252B33"/>
+    <circle cx="100" cy="65" r="5" fill="#4B5563"/>
+    <rect x="-55" y="55" width="200" height="8" fill="#3E2A14"/>
+  </g>
+</svg>`,
+
+servicos: `
+<svg viewBox="0 0 400 220" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="svBg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#1B4332"/><stop offset="1" stop-color="#0F2A1D"/>
+  </linearGradient></defs>
+  <rect width="400" height="220" fill="url(#svBg)"/>
+  <g transform="translate(110 30)">
+    <rect x="0" y="0" width="180" height="170" rx="8" fill="#E4D5C3"/>
+    <rect x="0" y="0" width="180" height="170" rx="8" fill="none" stroke="#8B5E34" stroke-width="2.5"/>
+    <rect x="65" y="-10" width="50" height="20" rx="4" fill="#5C3D1E"/>
+    <line x1="20" y1="40" x2="160" y2="40" stroke="#8B5E34" stroke-width="2" opacity=".35"/>
+    <circle cx="28" cy="58" r="7" fill="none" stroke="#40916C" stroke-width="2"/>
+    <path d="M24 58 L27 61 L33 54" stroke="#40916C" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <line x1="44" y1="58" x2="160" y2="58" stroke="#8B5E34" stroke-width="2" opacity=".35"/>
+    <line x1="20" y1="80" x2="160" y2="80" stroke="#8B5E34" stroke-width="2" opacity=".35"/>
+    <circle cx="28" cy="98" r="7" fill="none" stroke="#40916C" stroke-width="2"/>
+    <path d="M24 98 L27 101 L33 94" stroke="#40916C" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <line x1="44" y1="98" x2="140" y2="98" stroke="#8B5E34" stroke-width="2" opacity=".35"/>
+    <line x1="20" y1="120" x2="160" y2="120" stroke="#8B5E34" stroke-width="2" opacity=".35"/>
+    <circle cx="28" cy="138" r="7" fill="none" stroke="#C9A227" stroke-width="2"/>
+    <line x1="44" y1="138" x2="130" y2="138" stroke="#8B5E34" stroke-width="2" opacity=".35"/>
+  </g>
+  <g transform="translate(300 145)">
+    <circle cx="0" cy="0" r="42" fill="#40916C"/>
+    <circle cx="0" cy="0" r="42" fill="none" stroke="#8FD3A8" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="34" fill="none" stroke="#8FD3A8" stroke-width="1.2" stroke-dasharray="4 3"/>
+    <path d="M-14 0 L-4 12 L 16 -12" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(60 170)">
+    <path d="M0 30 L0 -10" stroke="#40916C" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M0 -2 Q-22 -12 -22 -30 Q-4 -26 0 -2 Z" fill="#40916C"/>
+    <path d="M0 -8 Q22 -18 22 -36 Q4 -32 0 -8 Z" fill="#2D6A4F"/>
+  </g>
+</svg>`,
+
+b_solo: `
+<svg viewBox="0 0 400 220" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="220" fill="#1B4332"/>
+  <rect x="0" y="60" width="400" height="30" fill="#5C3D1E"/>
+  <rect x="0" y="90" width="400" height="40" fill="#3E2A14"/>
+  <rect x="0" y="130" width="400" height="90" fill="#2D2015"/>
+  <g stroke="#8B5E34" stroke-width="2" fill="none" opacity=".85">
+    <path d="M200 60 L200 130 M200 90 L180 120 M200 105 L220 135 M200 80 L175 100 M200 75 L228 95"/>
+  </g>
+  <g transform="translate(200 40)">
+    <path d="M0 20 L0 -10" stroke="#40916C" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M0 -4 Q-18 -12 -18 -28 Q-4 -24 0 -4 Z" fill="#40916C"/>
+    <path d="M0 -8 Q18 -16 18 -32 Q4 -28 0 -8 Z" fill="#2D6A4F"/>
+  </g>
+  <g transform="translate(290 40)">
+    <rect x="0" y="0" width="90" height="60" rx="6" fill="#fff" opacity=".95"/>
+    <text x="10" y="18" font-family="Arial" font-size="8" font-weight="bold" fill="#4B5563">NUTRIENTES</text>
+    <rect x="10" y="30" width="12" height="20" fill="#40916C"/>
+    <rect x="28" y="36" width="12" height="14" fill="#C9A227"/>
+    <rect x="46" y="24" width="12" height="26" fill="#40916C"/>
+    <rect x="64" y="40" width="12" height="10" fill="#8B5E34"/>
+  </g>
+</svg>`,
+
+b_mercado: `
+<svg viewBox="0 0 400 220" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="220" fill="#1B4332"/>
+  <g transform="translate(40 30)">
+    <rect x="0" y="0" width="320" height="160" rx="8" fill="#0F2A1D" opacity=".6"/>
+    <g stroke="#8FD3A8" stroke-width="1" opacity=".15">
+      <line x1="0" y1="40" x2="320" y2="40"/><line x1="0" y1="80" x2="320" y2="80"/>
+      <line x1="0" y1="120" x2="320" y2="120"/>
+    </g>
+    <polyline points="20,120 70,100 120,110 170,70 220,55 270,30 310,15" fill="none" stroke="#C9A227" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="20" cy="120" r="4.5" fill="#C9A227"/>
+    <circle cx="70" cy="100" r="4.5" fill="#C9A227"/>
+    <circle cx="120" cy="110" r="4.5" fill="#C9A227"/>
+    <circle cx="170" cy="70" r="4.5" fill="#C9A227"/>
+    <circle cx="220" cy="55" r="4.5" fill="#C9A227"/>
+    <circle cx="270" cy="30" r="4.5" fill="#C9A227"/>
+    <circle cx="310" cy="15" r="6" fill="#E8C24A" stroke="#C9A227" stroke-width="2"/>
+    <path d="M290 -5 L 310 15 L 290 35" stroke="#C9A227" stroke-width="2" fill="none" opacity=".5"/>
+  </g>
+  <g>
+    <circle cx="60" cy="190" r="12" fill="#C9A227"/>
+    <circle cx="60" cy="190" r="9" fill="#E8C24A"/>
+    <text x="60" y="194" font-family="Georgia" font-size="11" font-weight="bold" fill="#5C3D1E" text-anchor="middle">$</text>
+    <circle cx="90" cy="195" r="9" fill="#C9A227"/>
+    <circle cx="115" cy="190" r="7" fill="#C9A227"/>
+    <ellipse cx="280" cy="195" rx="10" ry="7" fill="#8B5E34"/>
+    <ellipse cx="305" cy="192" rx="10" ry="7" fill="#8B5E34"/>
+    <ellipse cx="330" cy="195" rx="10" ry="7" fill="#8B5E34"/>
+    <ellipse cx="355" cy="190" rx="10" ry="7" fill="#8B5E34"/>
+  </g>
+</svg>`,
+
+b_pecuaria: `
+<svg viewBox="0 0 400 220" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="220" fill="#1B4332"/>
+  <path d="M0 155 Q100 140 200 150 T400 145 L400 220 L0 220 Z" fill="#2D6A4F"/>
+  <path d="M0 178 Q200 165 400 175 L400 220 L0 220 Z" fill="#0F2A1D"/>
+  <circle cx="330" cy="50" r="26" fill="#C9A227" opacity=".55"/>
+  <circle cx="330" cy="50" r="16" fill="#E8C24A" opacity=".9"/>
+  <g stroke="#C9A227" stroke-width="2" stroke-linecap="round" opacity=".6">
+    <line x1="330" y1="10" x2="330" y2="0"/><line x1="330" y1="90" x2="330" y2="100"/>
+    <line x1="290" y1="50" x2="280" y2="50"/><line x1="370" y1="50" x2="380" y2="50"/>
+    <line x1="302" y1="22" x2="295" y2="15"/><line x1="358" y1="22" x2="365" y2="15"/>
+    <line x1="302" y1="78" x2="295" y2="85"/><line x1="358" y1="78" x2="365" y2="85"/>
+  </g>
+  <g stroke="#8B5E34" stroke-width="1.5" opacity=".55">
+    <path d="M30 175 L25 155"/><path d="M40 175 L44 152"/><path d="M52 175 L55 158"/>
+    <path d="M365 175 L360 155"/><path d="M375 175 L378 152"/>
+  </g>
+  <g transform="translate(200 105)">
+    <ellipse cx="0" cy="0" rx="70" ry="36" fill="#E4D5C3"/>
+    <ellipse cx="0" cy="0" rx="70" ry="36" fill="none" stroke="#8B5E34" stroke-width="2"/>
+    <g transform="translate(-75 -8)">
+      <ellipse cx="0" cy="0" rx="26" ry="22" fill="#E4D5C3"/>
+      <ellipse cx="0" cy="0" rx="26" ry="22" fill="none" stroke="#8B5E34" stroke-width="2"/>
+      <path d="M-13 -17 Q-22 -34 -10 -36 Q-6 -26 -4 -20" fill="#8B5E34"/>
+      <path d="M13 -17 Q22 -34 10 -36 Q6 -26 4 -20" fill="#8B5E34"/>
+      <circle cx="-12" cy="-4" r="2.5" fill="#252B33"/>
+      <circle cx="12" cy="-4" r="2.5" fill="#252B33"/>
+      <ellipse cx="0" cy="10" rx="14" ry="8" fill="#8B5E34"/>
+    </g>
+    <rect x="-52" y="24" width="8" height="32" fill="#8B5E34"/>
+    <rect x="-24" y="26" width="8" height="30" fill="#8B5E34"/>
+    <rect x="26" y="26" width="8" height="30" fill="#8B5E34"/>
+    <rect x="52" y="24" width="8" height="32" fill="#8B5E34"/>
+    <path d="M68 -10 Q85 -3 82 18" stroke="#8B5E34" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <ellipse cx="-22" cy="-12" rx="14" ry="9" fill="#8B5E34" opacity=".6"/>
+    <ellipse cx="30" cy="6" rx="18" ry="10" fill="#8B5E34" opacity=".5"/>
+  </g>
+  <g transform="translate(50 150)">
+    <rect x="0" y="0" width="60" height="24" fill="#5C3D1E"/>
+    <rect x="0" y="0" width="60" height="6" fill="#8B5E34"/>
+    <ellipse cx="30" cy="6" rx="24" ry="3" fill="#C9A227" opacity=".75"/>
+  </g>
+</svg>`,
+
+b_gestao: `
+<svg viewBox="0 0 400 220" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="220" fill="#1B4332"/>
+  <g transform="translate(40 30)">
+    <rect x="0" y="0" width="320" height="160" rx="8" fill="#0F2A1D"/>
+    <rect x="0" y="0" width="320" height="30" rx="8" fill="#2D6A4F"/>
+    <circle cx="16" cy="15" r="4" fill="#8B5E34"/><circle cx="30" cy="15" r="4" fill="#C9A227"/><circle cx="44" cy="15" r="4" fill="#40916C"/>
+    <text x="160" y="20" font-family="Arial" font-size="10" fill="#8FD3A8" text-anchor="middle" letter-spacing="1">PAINEL DE CUSTOS</text>
+    <rect x="20" y="50" width="85" height="45" rx="4" fill="#2D6A4F"/>
+    <text x="32" y="65" font-family="Arial" font-size="7" fill="#8FD3A8">R$/HECTARE</text>
+    <text x="32" y="84" font-family="Georgia" font-size="18" font-weight="bold" fill="#fff">3.480</text>
+    <rect x="117" y="50" width="85" height="45" rx="4" fill="#C9A227"/>
+    <text x="129" y="65" font-family="Arial" font-size="7" fill="#5C3D1E">R$/SACA</text>
+    <text x="129" y="84" font-family="Georgia" font-size="18" font-weight="bold" fill="#fff">58,90</text>
+    <rect x="214" y="50" width="85" height="45" rx="4" fill="#40916C"/>
+    <text x="226" y="65" font-family="Arial" font-size="7" fill="#D8F3DC">MARGEM</text>
+    <text x="226" y="84" font-family="Georgia" font-size="18" font-weight="bold" fill="#fff">24%</text>
+    <rect x="20" y="105" width="280" height="45" rx="4" fill="#1B4332" opacity=".8"/>
+    <g fill="#8FD3A8">
+      <rect x="40" y="115" width="16" height="30"/>
+      <rect x="70" y="125" width="16" height="20"/>
+      <rect x="100" y="112" width="16" height="33"/>
+      <rect x="130" y="120" width="16" height="25"/>
+      <rect x="160" y="108" width="16" height="37"/>
+      <rect x="190" y="128" width="16" height="17"/>
+      <rect x="220" y="115" width="16" height="30"/>
+      <rect x="250" y="105" width="16" height="40"/>
+    </g>
+  </g>
+</svg>`,
+
+b_sustent: `
+<svg viewBox="0 0 400 220" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="220" fill="#1B4332"/>
+  <g transform="translate(200 110)">
+    <circle cx="0" cy="0" r="70" fill="#0F2A1D"/>
+    <circle cx="0" cy="0" r="70" fill="none" stroke="#40916C" stroke-width="2" opacity=".6"/>
+    <path d="M-50 -30 Q-20 -40 10 -25 Q30 -15 20 10 Q10 35 -20 30 Q-45 25 -50 -30 Z" fill="#40916C" opacity=".7"/>
+    <path d="M30 -30 Q55 -25 55 5 Q55 25 30 30 Q40 10 30 -30 Z" fill="#40916C" opacity=".55"/>
+    <ellipse cx="0" cy="0" rx="70" ry="20" fill="none" stroke="#8FD3A8" stroke-width="1" opacity=".35"/>
+  </g>
+  <g>
+    <path d="M70 70 Q85 45 110 45 Q100 70 70 70 Z" fill="#8FD3A8" opacity=".85"/>
+    <path d="M70 70 Q90 62 110 45" stroke="#40916C" stroke-width="1.5" fill="none"/>
+  </g>
+  <g>
+    <path d="M310 140 Q325 115 350 115 Q340 140 310 140 Z" fill="#8FD3A8" opacity=".85"/>
+    <path d="M310 140 Q330 132 350 115" stroke="#40916C" stroke-width="1.5" fill="none"/>
+  </g>
+  <g stroke="#C9A227" stroke-width="2.5" fill="none" stroke-linecap="round" opacity=".9">
+    <path d="M140 50 Q90 90 140 165"/>
+    <path d="M260 50 Q310 90 260 165"/>
+  </g>
+  <path d="M133 58 L140 46 L148 56" fill="none" stroke="#C9A227" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M267 58 L260 46 L252 56" fill="none" stroke="#C9A227" stroke-width="2.5" stroke-linecap="round"/>
+</svg>`,
+
+b_micro: `
+<svg viewBox="0 0 400 220" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="220" fill="#1B4332"/>
+  <g transform="translate(200 110)">
+    <path d="M0 90 C -70 30 -70 -50 0 -90 C 70 -50 70 30 0 90 Z" fill="#40916C"/>
+    <path d="M0 90 L 0 -90" stroke="#8FD3A8" stroke-width="2.5" fill="none"/>
+    <path d="M0 60 L -32 25 M0 60 L 32 25" stroke="#8FD3A8" stroke-width="2" fill="none"/>
+    <path d="M0 30 L -38 -5 M0 30 L 38 -5" stroke="#8FD3A8" stroke-width="2" fill="none"/>
+    <path d="M0 0 L -32 -35 M0 0 L 32 -35" stroke="#8FD3A8" stroke-width="2" fill="none"/>
+    <path d="M0 -30 L -22 -60 M0 -30 L 22 -60" stroke="#8FD3A8" stroke-width="2" fill="none"/>
+  </g>
+  <g>
+    <circle cx="120" cy="60" r="7" fill="#C9A227"/>
+    <text x="120" y="64" font-family="Georgia" font-size="9" font-weight="bold" fill="#5C3D1E" text-anchor="middle">B</text>
+    <circle cx="290" cy="80" r="8" fill="#C9A227"/>
+    <text x="290" y="84" font-family="Georgia" font-size="8" font-weight="bold" fill="#5C3D1E" text-anchor="middle">Zn</text>
+    <circle cx="110" cy="160" r="7" fill="#8FD3A8"/>
+    <text x="110" y="164" font-family="Georgia" font-size="8" font-weight="bold" fill="#0F2A1D" text-anchor="middle">Mn</text>
+    <circle cx="300" cy="170" r="7" fill="#8FD3A8"/>
+    <text x="300" y="174" font-family="Georgia" font-size="8" font-weight="bold" fill="#0F2A1D" text-anchor="middle">Mo</text>
+  </g>
+</svg>`,
+
+a_solo: `
+<svg viewBox="0 0 1200 340" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aS" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1B4332"/><stop offset="1" stop-color="#0F2A1D"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="340" fill="url(#aS)"/>
+  <rect x="0" y="180" width="1200" height="22" fill="#5C3D1E"/>
+  <rect x="0" y="202" width="1200" height="38" fill="#3E2A14"/>
+  <rect x="0" y="240" width="1200" height="100" fill="#2D2015"/>
+  <g stroke="#8B5E34" stroke-width="3" fill="none" opacity=".9">
+    <path d="M400 180 L400 300 M400 220 L340 280 M400 250 L460 320 M400 200 L320 250 M400 190 L480 240"/>
+    <path d="M700 180 L700 300 M700 215 L640 275 M700 245 L760 315 M700 195 L620 245 M700 185 L780 235"/>
+  </g>
+  <g transform="translate(400 140)">
+    <path d="M0 40 L 0 -20" stroke="#40916C" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M0 0 Q-30 -12 -30 -40 Q-6 -32 0 0 Z" fill="#40916C"/>
+    <path d="M0 -12 Q30 -24 30 -52 Q6 -44 0 -12 Z" fill="#2D6A4F"/>
+  </g>
+  <g transform="translate(700 130)">
+    <path d="M0 50 L 0 -30" stroke="#40916C" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M0 0 Q-32 -14 -32 -46 Q-8 -36 0 0 Z" fill="#40916C"/>
+    <path d="M0 -14 Q32 -28 32 -60 Q8 -50 0 -14 Z" fill="#2D6A4F"/>
+  </g>
+  <g font-family="Arial" font-size="12" fill="#8FD3A8" opacity=".85">
+    <line x1="60" y1="180" x2="1140" y2="180" stroke="#8FD3A8" stroke-width="1" stroke-dasharray="6 6" opacity=".4"/>
+    <text x="80" y="175">0 cm</text>
+    <line x1="60" y1="260" x2="1140" y2="260" stroke="#8FD3A8" stroke-width="1" stroke-dasharray="6 6" opacity=".25"/>
+    <text x="80" y="255">20 cm</text>
+    <line x1="60" y1="320" x2="1140" y2="320" stroke="#8FD3A8" stroke-width="1" stroke-dasharray="6 6" opacity=".2"/>
+    <text x="80" y="315">40 cm</text>
+  </g>
+  <g transform="translate(970 40)">
+    <rect x="0" y="0" width="180" height="100" rx="8" fill="#fff" opacity=".94"/>
+    <text x="18" y="28" font-family="Arial" font-size="11" font-weight="bold" fill="#5C3D1E" letter-spacing="1">ANÁLISE DE SOLO</text>
+    <line x1="18" y1="40" x2="162" y2="40" stroke="#E4D5C3" stroke-width="1.5"/>
+    <text x="18" y="62" font-family="Arial" font-size="11" fill="#4B5563">pH ................</text>
+    <text x="120" y="62" font-family="Arial" font-size="11" font-weight="bold" fill="#2D6A4F">5.8</text>
+    <text x="18" y="80" font-family="Arial" font-size="11" fill="#4B5563">CTC ...............</text>
+    <text x="120" y="80" font-family="Arial" font-size="11" font-weight="bold" fill="#2D6A4F">8,4</text>
+  </g>
+</svg>`,
+
+a_mercado: `
+<svg viewBox="0 0 1200 340" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aM" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1B4332"/><stop offset="1" stop-color="#0F2A1D"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="340" fill="url(#aM)"/>
+  <g stroke="#8FD3A8" stroke-width="1" opacity=".08">
+    <line x1="0" y1="80" x2="1200" y2="80"/><line x1="0" y1="160" x2="1200" y2="160"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+    <line x1="200" y1="0" x2="200" y2="340"/><line x1="400" y1="0" x2="400" y2="340"/>
+    <line x1="600" y1="0" x2="600" y2="340"/><line x1="800" y1="0" x2="800" y2="340"/>
+    <line x1="1000" y1="0" x2="1000" y2="340"/>
+  </g>
+  <polyline points="80,250 200,210 320,230 440,170 560,150 680,110 800,80 920,50 1040,30 1120,20" fill="none" stroke="#C9A227" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="80,250 200,210 320,230 440,170 560,150 680,110 800,80 920,50 1040,30 1120,20 1120,340 80,340" fill="#C9A227" opacity=".13"/>
+  <g fill="#E8C24A">
+    <circle cx="80" cy="250" r="6"/><circle cx="200" cy="210" r="6"/><circle cx="320" cy="230" r="6"/>
+    <circle cx="440" cy="170" r="6"/><circle cx="560" cy="150" r="6"/><circle cx="680" cy="110" r="6"/>
+    <circle cx="800" cy="80" r="6"/><circle cx="920" cy="50" r="6"/><circle cx="1040" cy="30" r="6"/>
+    <circle cx="1120" cy="20" r="8" stroke="#C9A227" stroke-width="2"/>
+  </g>
+  <g transform="translate(70 40)">
+    <rect x="0" y="0" width="220" height="90" rx="8" fill="#fff" opacity=".95"/>
+    <text x="16" y="26" font-family="Arial" font-size="10" font-weight="bold" fill="#5C3D1E" letter-spacing="1">BARTER · CUSTO EFETIVO</text>
+    <line x1="16" y1="38" x2="204" y2="38" stroke="#E4D5C3" stroke-width="1.5"/>
+    <text x="16" y="58" font-family="Arial" font-size="11" fill="#4B5563">Soja equivalente</text>
+    <text x="204" y="58" font-family="Arial" font-size="11" font-weight="bold" fill="#2D6A4F" text-anchor="end">18,4 sc/t</text>
+    <text x="16" y="76" font-family="Arial" font-size="11" fill="#4B5563">Custo financeiro</text>
+    <text x="204" y="76" font-family="Arial" font-size="11" font-weight="bold" fill="#C9A227" text-anchor="end">-2,3%</text>
+  </g>
+  <g>
+    <circle cx="1050" cy="270" r="18" fill="#C9A227"/>
+    <circle cx="1050" cy="270" r="13" fill="#E8C24A"/>
+    <text x="1050" y="276" font-family="Georgia" font-size="16" font-weight="bold" fill="#5C3D1E" text-anchor="middle">R$</text>
+    <circle cx="1100" cy="290" r="13" fill="#C9A227"/>
+    <circle cx="1130" cy="275" r="10" fill="#C9A227"/>
+  </g>
+</svg>`,
+
+a_pecuaria: `
+<svg viewBox="0 0 1200 340" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aP" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8B5E34"/><stop offset="1" stop-color="#3E2A14"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="340" fill="url(#aP)"/>
+  <circle cx="1000" cy="80" r="60" fill="#C9A227" opacity=".35"/>
+  <circle cx="1000" cy="80" r="40" fill="#E8C24A" opacity=".7"/>
+  <path d="M0 240 Q300 210 600 230 T1200 220 L1200 340 L0 340 Z" fill="#2D6A4F"/>
+  <path d="M0 275 Q400 250 800 270 T1200 265 L1200 340 L0 340 Z" fill="#1B4332"/>
+  <g stroke="#C9A227" stroke-width="1.5" opacity=".45">
+    <path d="M100 280 L95 250"/><path d="M120 280 L125 255"/><path d="M140 280 L135 258"/>
+    <path d="M1060 275 L1055 245"/><path d="M1080 275 L1085 250"/>
+  </g>
+  <g transform="translate(400 200)">
+    <ellipse cx="0" cy="0" rx="70" ry="36" fill="#E4D5C3"/>
+    <g transform="translate(-75 -8)">
+      <ellipse cx="0" cy="0" rx="26" ry="22" fill="#E4D5C3"/>
+      <path d="M-13 -17 Q-22 -34 -10 -36 Q-6 -26 -4 -20" fill="#8B5E34"/>
+      <path d="M13 -17 Q22 -34 10 -36 Q6 -26 4 -20" fill="#8B5E34"/>
+      <circle cx="-12" cy="-4" r="2.5" fill="#252B33"/><circle cx="12" cy="-4" r="2.5" fill="#252B33"/>
+      <ellipse cx="0" cy="10" rx="14" ry="8" fill="#8B5E34"/>
+    </g>
+    <rect x="-52" y="24" width="8" height="32" fill="#8B5E34"/>
+    <rect x="-24" y="26" width="8" height="30" fill="#8B5E34"/>
+    <rect x="26" y="26" width="8" height="30" fill="#8B5E34"/>
+    <rect x="52" y="24" width="8" height="32" fill="#8B5E34"/>
+  </g>
+  <g transform="translate(750 220) scale(.85)">
+    <ellipse cx="0" cy="0" rx="70" ry="36" fill="#C7AE93"/>
+    <g transform="translate(-75 -8)">
+      <ellipse cx="0" cy="0" rx="26" ry="22" fill="#C7AE93"/>
+      <path d="M-13 -17 Q-22 -34 -10 -36 Q-6 -26 -4 -20" fill="#5C3D1E"/>
+      <path d="M13 -17 Q22 -34 10 -36 Q6 -26 4 -20" fill="#5C3D1E"/>
+      <circle cx="-12" cy="-4" r="2.5" fill="#252B33"/><circle cx="12" cy="-4" r="2.5" fill="#252B33"/>
+      <ellipse cx="0" cy="10" rx="14" ry="8" fill="#5C3D1E"/>
+    </g>
+    <rect x="-52" y="24" width="8" height="32" fill="#5C3D1E"/>
+    <rect x="-24" y="26" width="8" height="30" fill="#5C3D1E"/>
+    <rect x="26" y="26" width="8" height="30" fill="#5C3D1E"/>
+    <rect x="52" y="24" width="8" height="32" fill="#5C3D1E"/>
+  </g>
+  <g transform="translate(60 40)">
+    <rect x="0" y="0" width="220" height="110" rx="8" fill="#fff" opacity=".95"/>
+    <text x="16" y="26" font-family="Arial" font-size="10" font-weight="bold" fill="#5C3D1E" letter-spacing="1">CONSUMO NO COCHO</text>
+    <line x1="16" y1="38" x2="204" y2="38" stroke="#E4D5C3" stroke-width="1.5"/>
+    <text x="16" y="60" font-family="Arial" font-size="11" fill="#4B5563">Meta ...............</text>
+    <text x="204" y="60" font-family="Arial" font-size="11" font-weight="bold" fill="#2D6A4F" text-anchor="end">60 g/cab</text>
+    <text x="16" y="80" font-family="Arial" font-size="11" fill="#4B5563">Real ................</text>
+    <text x="204" y="80" font-family="Arial" font-size="11" font-weight="bold" fill="#C9A227" text-anchor="end">82 g/cab</text>
+    <text x="16" y="100" font-family="Arial" font-size="10" fill="#8B5E34" font-style="italic">Excesso de 36% no consumo</text>
+  </g>
+</svg>`,
+
+a_gestao: `
+<svg viewBox="0 0 1200 340" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1B4332"/><stop offset="1" stop-color="#0F2A1D"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="340" fill="url(#aG)"/>
+  <g transform="translate(80 40)">
+    <rect x="0" y="0" width="1040" height="260" rx="10" fill="#0F2A1D"/>
+    <rect x="0" y="0" width="1040" height="40" rx="10" fill="#2D6A4F"/>
+    <circle cx="22" cy="20" r="5" fill="#8B5E34"/><circle cx="42" cy="20" r="5" fill="#C9A227"/><circle cx="62" cy="20" r="5" fill="#40916C"/>
+    <text x="520" y="26" font-family="Arial" font-size="12" fill="#8FD3A8" text-anchor="middle" letter-spacing="2">PAINEL DE INDICADORES · SAFRA 2024/25</text>
+    <rect x="30" y="65" width="230" height="90" rx="6" fill="#2D6A4F"/>
+    <text x="46" y="88" font-family="Arial" font-size="10" fill="#8FD3A8" letter-spacing="1">CUSTO POR HECTARE</text>
+    <text x="46" y="128" font-family="Georgia" font-size="34" font-weight="bold" fill="#fff">R$ 3.480</text>
+    <rect x="275" y="65" width="230" height="90" rx="6" fill="#C9A227"/>
+    <text x="291" y="88" font-family="Arial" font-size="10" fill="#5C3D1E" letter-spacing="1">CUSTO POR SACA</text>
+    <text x="291" y="128" font-family="Georgia" font-size="34" font-weight="bold" fill="#fff">R$ 58,90</text>
+    <rect x="520" y="65" width="230" height="90" rx="6" fill="#40916C"/>
+    <text x="536" y="88" font-family="Arial" font-size="10" fill="#D8F3DC" letter-spacing="1">MARGEM LÍQUIDA</text>
+    <text x="536" y="128" font-family="Georgia" font-size="34" font-weight="bold" fill="#fff">24,7%</text>
+    <rect x="765" y="65" width="245" height="90" rx="6" fill="#5C3D1E"/>
+    <text x="781" y="88" font-family="Arial" font-size="10" fill="#E4D5C3" letter-spacing="1">PRODUTIVIDADE MÉDIA</text>
+    <text x="781" y="128" font-family="Georgia" font-size="34" font-weight="bold" fill="#fff">68,4 sc/ha</text>
+    <rect x="30" y="170" width="980" height="75" rx="6" fill="#1B4332"/>
+    <g fill="#8FD3A8">
+      <rect x="70" y="200" width="30" height="35"/>
+      <rect x="140" y="190" width="30" height="45"/>
+      <rect x="210" y="205" width="30" height="30"/>
+      <rect x="280" y="180" width="30" height="55"/>
+      <rect x="350" y="185" width="30" height="50"/>
+      <rect x="420" y="195" width="30" height="40"/>
+      <rect x="490" y="175" width="30" height="60"/>
+      <rect x="560" y="190" width="30" height="45"/>
+      <rect x="630" y="180" width="30" height="55"/>
+      <rect x="700" y="195" width="30" height="40"/>
+      <rect x="770" y="170" width="30" height="65"/>
+      <rect x="840" y="185" width="30" height="50"/>
+      <rect x="910" y="180" width="30" height="55"/>
+    </g>
+  </g>
+</svg>`,
+
+a_sustent: `
+<svg viewBox="0 0 1200 340" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aSu" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0F2A1D"/><stop offset="1" stop-color="#1B4332"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="340" fill="url(#aSu)"/>
+  <g transform="translate(950 170)">
+    <circle cx="0" cy="0" r="120" fill="#1B4332"/>
+    <circle cx="0" cy="0" r="120" fill="none" stroke="#40916C" stroke-width="3" opacity=".7"/>
+    <path d="M-85 -50 Q-30 -70 20 -45 Q60 -25 40 20 Q20 70 -35 55 Q-80 40 -85 -50 Z" fill="#40916C" opacity=".8"/>
+    <path d="M60 -50 Q100 -35 100 15 Q100 60 60 70 Q80 30 60 -50 Z" fill="#40916C" opacity=".6"/>
+    <ellipse cx="0" cy="0" rx="120" ry="35" fill="none" stroke="#8FD3A8" stroke-width="1.2" opacity=".35"/>
+    <ellipse cx="0" cy="0" rx="120" ry="70" fill="none" stroke="#8FD3A8" stroke-width="1" opacity=".2"/>
+  </g>
+  <g transform="translate(280 170)">
+    <rect x="-6" y="0" width="12" height="80" fill="#5C3D1E"/>
+    <ellipse cx="0" cy="-15" rx="90" ry="60" fill="#2D6A4F"/>
+    <ellipse cx="-40" cy="-40" rx="55" ry="42" fill="#40916C"/>
+    <ellipse cx="40" cy="-30" rx="50" ry="38" fill="#40916C"/>
+    <ellipse cx="0" cy="-60" rx="45" ry="32" fill="#8FD3A8" opacity=".55"/>
+  </g>
+  <g stroke="#C9A227" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M520 100 Q580 60 640 100"/>
+    <path d="M640 100 Q700 140 760 100"/>
+    <path d="M760 100 Q820 60 880 100"/>
+  </g>
+  <g fill="none" stroke="#C9A227" stroke-width="3" stroke-linecap="round">
+    <path d="M634 88 L644 100 L632 108"/>
+    <path d="M754 88 L764 100 L752 108"/>
+    <path d="M874 88 L884 100 L872 108"/>
+  </g>
+  <g font-family="Arial" font-size="12" font-weight="bold" fill="#8FD3A8" letter-spacing="1.5">
+    <text x="520" y="60" text-anchor="middle">FAZENDA</text>
+    <text x="700" y="175" text-anchor="middle">ARMAZÉM</text>
+    <text x="880" y="60" text-anchor="middle">EXPORTAÇÃO</text>
+  </g>
+</svg>`,
+
+a_micro: `
+<svg viewBox="0 0 1200 340" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aMi" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1B4332"/><stop offset="1" stop-color="#0F2A1D"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="340" fill="url(#aMi)"/>
+  <g transform="translate(350 170)">
+    <path d="M0 150 C -120 50 -120 -80 0 -150 C 120 -80 120 50 0 150 Z" fill="#40916C"/>
+    <path d="M0 150 L 0 -150" stroke="#8FD3A8" stroke-width="4" fill="none"/>
+    <path d="M0 100 L -55 40 M0 100 L 55 40" stroke="#8FD3A8" stroke-width="3" fill="none"/>
+    <path d="M0 40 L -65 -20 M0 40 L 65 -20" stroke="#8FD3A8" stroke-width="3" fill="none"/>
+    <path d="M0 -20 L -55 -80 M0 -20 L 55 -80" stroke="#8FD3A8" stroke-width="3" fill="none"/>
+    <path d="M0 -80 L -35 -125 M0 -80 L 35 -125" stroke="#8FD3A8" stroke-width="3" fill="none"/>
+  </g>
+  <g>
+    <circle cx="180" cy="90" r="12" fill="#C9A227"/>
+    <circle cx="150" cy="180" r="9" fill="#C9A227"/>
+    <circle cx="200" cy="260" r="10" fill="#C9A227"/>
+    <circle cx="520" cy="100" r="11" fill="#8FD3A8"/>
+    <circle cx="550" cy="200" r="9" fill="#8FD3A8"/>
+    <circle cx="500" cy="280" r="10" fill="#8FD3A8"/>
+  </g>
+  <g transform="translate(720 60)">
+    <rect x="0" y="0" width="420" height="230" rx="8" fill="#fff" opacity=".95"/>
+    <text x="20" y="30" font-family="Arial" font-size="12" font-weight="bold" fill="#5C3D1E" letter-spacing="1.5">MICRONUTRIENTES · CERRADO</text>
+    <line x1="20" y1="44" x2="400" y2="44" stroke="#E4D5C3" stroke-width="1.5"/>
+    <g font-family="Arial" font-size="12" fill="#4B5563">
+      <text x="20" y="70">Boro (B)</text>
+      <text x="20" y="96">Zinco (Zn)</text>
+      <text x="20" y="122">Manganês (Mn)</text>
+      <text x="20" y="148">Cobre (Cu)</text>
+      <text x="20" y="174">Molibdênio (Mo)</text>
+      <text x="20" y="200">Ferro (Fe)</text>
+    </g>
+    <g font-family="Arial" font-size="12" font-weight="bold" text-anchor="end">
+      <text x="400" y="70" fill="#C9A227">Alta deficiência</text>
+      <text x="400" y="96" fill="#C9A227">Alta deficiência</text>
+      <text x="400" y="122" fill="#C9A227">Média</text>
+      <text x="400" y="148" fill="#40916C">Baixa</text>
+      <text x="400" y="174" fill="#C9A227">Média</text>
+      <text x="400" y="200" fill="#40916C">Baixa</text>
+    </g>
+    <g opacity=".55">
+      <rect x="200" y="62" width="70" height="8" fill="#C9A227"/>
+      <rect x="200" y="88" width="70" height="8" fill="#C9A227"/>
+      <rect x="200" y="114" width="45" height="8" fill="#C9A227"/>
+      <rect x="200" y="140" width="20" height="8" fill="#40916C"/>
+      <rect x="200" y="166" width="45" height="8" fill="#C9A227"/>
+      <rect x="200" y="192" width="20" height="8" fill="#40916C"/>
+    </g>
+  </g>
+</svg>`
+};
+
+const PRODUTOS = [
+  {cat:'fertilizantes', tag:'Fertilizantes', nome:'NPK Formulado sob Demanda', desc:'Mistura granulada específica por talhão, com base em análise de solo e meta de produtividade.', specs:[['Granulometria','2–4 mm'],['Embalagem','Big bag 1.000 kg'],['Entrega','Programada por safra']], img:'npk'},
+  {cat:'fertilizantes', tag:'Corretivos', nome:'Calcário Dolomítico & Calcitíco', desc:'Correção de acidez com PRNT controlado e análise granulométrica por lote.', specs:[['PRNT','85% a 92%'],['Umidade','máx. 5%'],['Aplicação','A lanço / incorporado']], img:'calcario'},
+  {cat:'fertilizantes', tag:'Micronutrientes', nome:'Linha MicroVale Foliar', desc:'Mistura de boro, zinco, manganês e molibdênio para correção de deficiências em estádio vegetativo.', specs:[['Formulações','6 combinações'],['Dose','0,3–1,0 L/ha'],['Embalagem','20 L / 200 L']], img:'micro'},
+  {cat:'sementes', tag:'Sementes', nome:'Soja — Cultivares Cerrado', desc:'Cultivares selecionadas por ciclo, grupo de maturidade e tolerância a nematoides para MT, GO e BA.', specs:[['Grupos','6.2 a 8.5'],['Tratamento','Industrializado'],['TSW','Certificado por lote']], img:'soja'},
+  {cat:'sementes', tag:'Sementes', nome:'Milho Safrinha & Sorgo', desc:'Híbridos de alto teto produtivo e estabilidade para janela de segunda safra no Cerrado.', specs:[['Ciclo','Superprecoce a precoce'],['Sanidade','Tolerância a enfezamento'],['População','55–65 mil pl/ha']], img:'milho'},
+  {cat:'nutricao', tag:'Nutrição Animal', nome:'Mineral Corte Premium', desc:'Suplemento mineral para pecuária de corte com níveis de fósforo e microminerais ajustados por região.', specs:[['Consumo','40–70 g/cab/dia'],['Apresentação','Saco 30 kg / granel'],['Linhas','Engorda, cria, recria']], img:'mineral'},
+  {cat:'nutricao', tag:'Nutrição Animal', nome:'Proteinado Seca', desc:'Suplemento proteico energético para manutenção de ganho em pasto durante o período seco.', specs:[['PB','24% a 40%'],['Consumo','0,3–1,0 g/kg PV'],['Ganho','200–500 g/dia']], img:'proteinado'},
+  {cat:'graos', tag:'Originação', nome:'Compra de Soja & Milho', desc:'Originação com fixação de preço, contratos de barter e recebimento em sete unidades.', specs:[['Modalidade','À vista / Barter / CPR'],['Recebimento','7 unidades'],['Laudo','Umidade e impureza na hora']], img:'graos'},
+  {cat:'servicos', tag:'Serviços', nome:'Assistência Agronômica em Campo', desc:'Acompanhamento técnico por agrônomo dedicado, com relatórios de monitoramento por talhão.', specs:[['Visitas','Mínimo mensal'],['Relatórios','Digital + PDF'],['Resposta','Em até 48h']], img:'servicos'}
+];
+
+const ARTIGOS = {
+
+'analise-solo-npk': {
+  categoria:'Fertilidade', data:'12 mar 2025', leitura:'8 min de leitura',
+  autorNome:'Dra. Helena Prado', autorCargo:'Engenheira Agrônoma · Fertilidade do Solo',
+  autorIniciais:'HP',
+  autorBio:'Doutora em Ciência do Solo pela ESALQ/USP. Responsável técnica pela área de fertilidade e nutrição de plantas da AgroVale Cerrado, com atuação em MT, GO e BA.',
+  imagem:'a_solo', imgCard:'b_solo',
+  titulo:'Como interpretar a análise de solo para definir a formulação NPK',
+  resumo:'Um roteiro prático para transformar o laudo laboratorial em recomendação de adubação por talhão, considerando CTC, saturação de bases e exportação de nutrientes.',
+  conteudo: `
+<p>A análise de solo é o documento mais importante da fazenda depois do balanço financeiro. Ainda assim, em muitos casos ela é lida apenas como uma tabela de números soltos — e não como um diagnóstico agronômico. O objetivo deste artigo é apresentar um roteiro em etapas para transformar o laudo em uma recomendação de adubação defensável técnica e economicamente.</p>
+
+<h2>1. Comece pela leitura do contexto, não dos números</h2>
+<p>Antes de olhar qualquer valor, é fundamental responder a três perguntas sobre o talhão:</p>
+<ul>
+  <li><strong>Histórico:</strong> qual foi a produtividade das últimas três safras e qual cultura foi plantada?</li>
+  <li><strong>Meta:</strong> qual é o teto produtivo que se pretende alcançar no ciclo atual?</li>
+  <li><strong>Restrições:</strong> existem camadas compactadas, drenagem deficiente ou histórico de erosão?</li>
+</ul>
+<p>Sem esse contexto, qualquer cálculo de adubação vira uma operação aritmética sem base agronômica.</p>
+
+<h2>2. Avalie a fertilidade atual: os cinco números-chave</h2>
+<p>Em um laudo padrão de análise química, cinco parâmetros determinam a maior parte da decisão:</p>
+<table>
+  <thead>
+    <tr><th>Parâmetro</th><th>Faixa adequada (Cerrado)</th><th>Impacto na decisão</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>pH em CaCl₂</td><td>5,5 a 6,0</td><td>Define necessidade de calagem</td></tr>
+    <tr><td>CTC a pH 7,0</td><td>Acima de 8 cmolc/dm³</td><td>Capacidade de reter nutrientes</td></tr>
+    <tr><td>Saturação por bases (V%)</td><td>50% a 60%</td><td>Meta da calagem</td></tr>
+    <tr><td>Fósforo (P) extraível</td><td>Acima de 15 mg/dm³</td><td>Fonte, dose e modo de aplicação</td></tr>
+    <tr><td>Potássio (K⁺)</td><td>Acima de 0,25 cmolc/dm³</td><td>Necessidade de K₂O</td></tr>
+  </tbody>
+</table>
+
+<div class="callout">
+  <strong>Ponto de atenção</strong>
+  <p>Um solo com V% adequado e teores baixos de P e K não é um solo corrigido — é um solo apenas neutralizado. A calagem resolve a acidez, não a deficiência de nutrientes.</p>
+</div>
+
+<h2>3. Calcule a necessidade de correção antes da adubação</h2>
+<p>A ordem correta de decisão é: <strong>correção → construção → manutenção</strong>. Pular etapas gera desperdício de fertilizante e resposta inconsistente da cultura. A fórmula de necessidade de calagem mais usada no Cerrado é:</p>
+<blockquote>NC (t/ha) = (V₂ − V₁) × CTC / (PRNT × 10)</blockquote>
+<p>Onde V₂ é a saturação desejada, V₁ é a saturação atual e PRNT é o poder relativo de neutralização total do calcário disponível. Aplicar calcário em dose insuficiente mantém o solo ácido por anos — e nenhuma adubação compensa essa condição.</p>
+
+<h2>4. Defina P e K pela exportação e pelo teor atual</h2>
+<p>Para fósforo e potássio, o critério de decisão é duplo: <strong>correção do teor no solo</strong> (construção de fertilidade) e <strong>reposição da exportação pela cultura</strong> (manutenção).</p>
+<ul>
+  <li>Para cada tonelada de soja produzida, estima-se a exportação de aproximadamente 8 kg de P₂O₅ e 20 kg de K₂O.</li>
+  <li>Para cada tonelada de milho grão, a exportação fica em torno de 6 kg de P₂O₅ e 15 kg de K₂O.</li>
+  <li>Para cada tonelada de algodão em caroço, aproximadamente 8 kg de P₂O₅ e 16 kg de K₂O.</li>
+</ul>
+
+<h2>5. Monte a formulação com base em faixas</h2>
+<p>Uma vez conhecidos os teores atuais, a meta de produtividade e a exportação esperada, a formulação NPK passa a ter justificativa técnica. É aqui que o fertilizante formulado sob demanda faz diferença: em vez de aplicar uma fórmula padrão de mercado, aplica-se exatamente a relação N-P-K que o talhão exige.</p>
+
+<h3>Exemplo prático</h3>
+<p>Um talhão com meta de 70 sc/ha de soja, P em 12 mg/dm³ e K em 0,20 cmolc/dm³ pode exigir uma relação diferente de outro com meta de 85 sc/ha e teores altos. Aplicar a mesma fórmula nos dois talhões é economicamente ineficiente em pelo menos um deles.</p>
+
+<h2>6. Refine pela análise foliar</h2>
+<p>A análise de solo orienta o que será aplicado. A análise foliar confirma se o que foi aplicado está sendo absorvido. Usar as duas ferramentas em conjunto permite ajustar doses em tempo hábil, especialmente para micronutrientes como boro, zinco e manganês, cujos teores no solo têm baixa correlação com a disponibilidade real às plantas.</p>
+
+<div class="callout">
+  <strong>Recomendação prática</strong>
+  <p>Realize análise de solo ao menos uma vez por safra, sempre com pelo menos 20 subamostras por talhão homogêneo. Divida talhões com mais de 150 hectares em áreas de manejo distintas.</p>
+</div>
+
+<h2>Conclusão</h2>
+<p>Uma recomendação de adubação bem feita não é uma fórmula pronta. É a síntese de análise química, histórico de produtividade, característica física do solo e meta da cultura. Adotar esse roteiro reduz o custo por hectare, aumenta a eficiência dos fertilizantes e melhora a resposta das culturas ao longo das safras.</p>
+`},
+
+'barter-safra': {
+  categoria:'Mercado', data:'28 fev 2025', leitura:'6 min de leitura',
+  autorNome:'Rafael Tavares', autorCargo:'Head de Originação · Originação de Grãos',
+  autorIniciais:'RT',
+  autorBio:'Economista com 15 anos de experiência em originação, hedge e estruturação de contratos de barter. Responsável pela operação de grãos da AgroVale Cerrado em MT, GO e BA.',
+  imagem:'a_mercado', imgCard:'b_mercado',
+  titulo:'Barter na safra 2025/26: quando a troca compensa mais que o financiamento',
+  resumo:'Comparativo de custo efetivo entre barter, custeio bancário e compra à vista, com simulação de cenários de preço de soja.',
+  conteudo: `
+<p>O barter — troca de insumos por grão — deixou de ser uma alternativa emergencial e passou a ocupar posição central no planejamento financeiro de milhares de produtores. Mas ainda existe uma pergunta que precisa ser respondida com clareza: <strong>quando o barter compensa de fato?</strong> Este artigo compara as principais modalidades de financiamento de insumos com números reais.</p>
+
+<h2>O que é o barter, na prática</h2>
+<p>No barter, o produtor contrata insumos (fertilizantes, sementes, defensivos) e paga com grão em quantidade previamente definida. A relação de troca é fixada no momento da contratação, o que elimina o risco de preço para o produtor durante o período até a entrega.</p>
+
+<div class="callout">
+  <strong>Detalhe essencial</strong>
+  <p>O barter não é apenas uma operação comercial. É, ao mesmo tempo, uma operação comercial e uma operação de hedge. Isso significa que seu custo efetivo precisa ser comparado com o custo do financiamento <em>mais</em> o benefício da eliminação do risco de preço.</p>
+</div>
+
+<h2>As três modalidades comparadas</h2>
+<table>
+  <thead>
+    <tr><th>Modalidade</th><th>Custo financeiro</th><th>Risco de preço</th><th>Garantia exigida</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Compra à vista</td><td>Zero</td><td>Total para o produtor</td><td>Nenhuma</td></tr>
+    <tr><td>Custeio bancário</td><td>9% a 14% a.a.</td><td>Total para o produtor</td><td>Penhor da safra</td></tr>
+    <tr><td>Barter</td><td>Embutido na taxa de troca</td><td>Zero</td><td>Compromisso de entrega</td></tr>
+  </tbody>
+</table>
+
+<h2>Como calcular o custo efetivo do barter</h2>
+<p>O segredo está em converter a taxa de troca em custo financeiro. O método é direto:</p>
+<ol>
+  <li>Considere o preço do insumo à vista, em reais.</li>
+  <li>Considere a quantidade de grão exigida no contrato de barter, em sacas.</li>
+  <li>Multiplique a quantidade de sacas pelo preço futuro de referência do grão na data da entrega.</li>
+  <li>O excedente entre esse valor e o preço à vista do insumo é o custo financeiro efetivo da operação.</li>
+</ol>
+
+<h3>Exemplo numérico</h3>
+<p>Suponha um insumo com preço à vista de R$ 3.000 por tonelada. Em barter, o contrato exige a entrega de 42 sacas de soja no momento da colheita. Considerando um preço futuro de soja de R$ 125/saca:</p>
+<ul>
+  <li>Valor do grão entregue: 42 × 125 = <strong>R$ 5.250</strong></li>
+  <li>Custo financeiro embutido: R$ 5.250 − R$ 3.000 = <strong>R$ 2.250</strong></li>
+  <li>Custo financeiro sobre o valor à vista: 2.250 / 3.000 = <strong>75% em relação ao valor do insumo</strong></li>
+</ul>
+<p>Esse percentual pode parecer alto, mas é distribuído ao longo de vários meses. Convertido em taxa equivalente mensal, geralmente fica entre 1,4% e 2,2% — compatível com o custeio bancário em muitos cenários e com a vantagem adicional de eliminar o risco de queda no preço da soja.</p>
+
+<h2>Quando o barter realmente compensa</h2>
+<ul>
+  <li><strong>Expectativa de preço estável ou em queda:</strong> travar a relação de troca protege a margem.</li>
+  <li><strong>Restrição de crédito bancário:</strong> o barter não depende de análise de crédito tradicional.</li>
+  <li><strong>Volatilidade alta:</strong> a certeza do custo do insumo permite decisões mais seguras sobre a própria comercialização.</li>
+  <li><strong>Escala de compra:</strong> contratos coletivos de cooperativas tendem a obter taxas de troca melhores.</li>
+</ul>
+
+<h2>Quando o barter não compensa</h2>
+<ul>
+  <li><strong>Expectativa clara de alta no preço do grão:</strong> nesse cenário, o produtor troca grão que poderia valer mais.</li>
+  <li><strong>Taxa de troca desfavorável:</strong> quando o custo financeiro implícito supera significativamente o custo de crédito disponível.</li>
+  <li><strong>Necessidade de flexibilidade:</strong> contratos de barter com cláusulas rígidas de entrega podem limitar o planejamento da fazenda.</li>
+</ul>
+
+<blockquote>Barter não é melhor nem pior que financiamento. É uma ferramenta diferente, com risco diferente. A decisão deve ser tomada caso a caso, com a relação de troca convertida em custo financeiro.</blockquote>
+
+<h2>Conclusão</h2>
+<p>Na safra 2025/26, com volatilidade cambial e incerteza sobre a demanda internacional, o barter tende a continuar sendo uma ferramenta relevante para uma parte importante dos produtores. O ponto central é que ele deve ser comparado com o custeio bancário em condições equivalentes — sempre convertendo a taxa de troca em custo financeiro efetivo.</p>
+`},
+
+'mineral-seca': {
+  categoria:'Pecuária', data:'05 fev 2025', leitura:'7 min de leitura',
+  autorNome:'Dr. Marcos Vinícius Alves', autorCargo:'Zootecnista · Nutrição Animal',
+  autorIniciais:'MV',
+  autorBio:'Zootecnista com especialização em nutrição de ruminantes. Responsável técnico pela linha de nutrição animal da AgroVale Cerrado, com atuação em MS, MT e GO.',
+  imagem:'a_pecuaria', imgCard:'b_pecuaria',
+  titulo:'Suplementação mineral na seca: erro de 1 grama custa arrobas',
+  resumo:'Como ajustar o consumo de mineral no cocho, evitar desperdício e manter ganho de peso durante o período seco.',
+  conteudo: `
+<p>Na pecuária de corte, o período seco é onde se decidem as contas da fazenda. As pastagens perdem valor nutricional rapidamente, o ganho de peso cai e o custo por arroba sobe. Nesse cenário, um erro aparentemente pequeno na suplementação mineral — o consumo fora da meta por apenas 1 grama por cabeça por dia — pode representar milhares de reais no fim do ciclo.</p>
+
+<h2>Por que o ajuste do consumo é tão crítico</h2>
+<p>O suplemento mineral é formulado para ser consumido em uma faixa específica, geralmente entre 40 e 70 gramas por cabeça por dia, dependendo da linha. Se o consumo fica muito abaixo, os minerais essenciais não chegam em quantidade suficiente. Se fica muito acima, há desperdício e, em alguns casos, intoxicação.</p>
+
+<div class="callout">
+  <strong>Cálculo do impacto</strong>
+  <p>Um consumo 36% acima da meta em um rebanho de 1.000 cabeças, por 180 dias de seca, com saco de 30 kg a R$ 120, representa cerca de <strong>R$ 9.800 em suplemento desperdiçado</strong> em uma única estação — sem contar o efeito negativo sobre a eficiência alimentar.</p>
+</div>
+
+<h2>Os cinco fatores que desregulam o consumo</h2>
+<ol>
+  <li><strong>Palatabilidade do produto:</strong> ureia em excesso, fontes minerais amargas ou granulometria inadequada reduzem a aceitação.</li>
+  <li><strong>Distribuição irregular no cocho:</strong> o mineral deve estar disponível em pontos suficientes para todo o lote, especialmente para os animais de baixa hierarquia.</li>
+  <li><strong>Número e localização dos cochos:</strong> recomenda-se um cocho a cada 30 a 40 animais, com pelo menos 15 cm de espaço linear por cabeça.</li>
+  <li><strong>Disponibilidade de forragem:</strong> pasto muito baixo ou muito alto altera o comportamento de pastejo e o consumo de suplemento.</li>
+  <li><strong>Qualidade da água:</strong> água suja, com excesso de sais ou de ferro, pode reduzir a ingestão de mineral.</li>
+</ol>
+
+<h2>Como calcular a meta correta de consumo</h2>
+<p>A maioria das tabelas de suplementação trabalha com gramas por cabeça por dia, mas o cálculo correto parte do peso vivo do animal:</p>
+<blockquote>Consumo (g/dia) = Peso vivo (kg) × taxa de consumo (g/kg PV)</blockquote>
+<p>Para um animal de 400 kg com taxa de 0,15 g/kg PV, o consumo meta é de 60 gramas por dia. Essa referência muda conforme a categoria (cria, recria, engorda), o nível de exigência nutricional e o estágio da seca.</p>
+
+<h2>Como monitorar o consumo na prática</h2>
+<p>O monitoramento se faz em quatro passos simples, realizados semanalmente:</p>
+<ol>
+  <li>Pese a quantidade total de mineral fornecida ao lote na semana.</li>
+  <li>Registre o número de animais e o número de dias de fornecimento.</li>
+  <li>Calcule o consumo médio por cabeça por dia.</li>
+  <li>Compare com a meta da linha utilizada e ajuste a formulação se necessário.</li>
+</ol>
+
+<table>
+  <thead>
+    <tr><th>Situação</th><th>Consumo observado vs. meta</th><th>Ação recomendada</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Consumo muito baixo</td><td>Abaixo de 70% da meta</td><td>Revisar palatabilidade, posicionamento e número de cochos</td></tr>
+    <tr><td>Consumo adequado</td><td>Entre 85% e 115% da meta</td><td>Manter a formulação atual</td></tr>
+    <tr><td>Consumo excessivo</td><td>Acima de 130% da meta</td><td>Reduzir concentração de fósforo ou adicionar limitador de consumo</td></tr>
+  </tbody>
+</table>
+
+<h2>Erros mais comuns na seca</h2>
+<ul>
+  <li>Trocar de produto sem consultar o técnico responsável, alterando a palatabilidade e o consumo.</li>
+  <li>Manter a mesma formulação entre águas e seca, ignorando a mudança no valor nutritivo da pastagem.</li>
+  <li>Não pesar o suplemento fornecido — apenas estimar visualmente.</li>
+  <li>Distribuir o mineral apenas em um ponto, deixando animais sem acesso.</li>
+  <li>Misturar ureia ao mineral sem orientação técnica, alterando a aceitação.</li>
+</ul>
+
+<h2>Conclusão</h2>
+<p>Na pecuária, ganho de peso não vem de suplementos mirabolantes. Vem de ajuste fino e monitoramento constante. O mineral correto, no cocho correto, consumido na quantidade correta, entrega mais arrobas por hectare — e menos reais desperdiçados. Esse é o tipo de ajuste que separa operações de alto desempenho das demais.</p>
+`},
+
+'custo-hectare': {
+  categoria:'Gestão', data:'22 jan 2025', leitura:'9 min de leitura',
+  autorNome:'Camila Ribeiro', autorCargo:'Analista de Gestão Agrícola',
+  autorIniciais:'CR',
+  autorBio:'Especialista em gestão de custos e planejamento agrícola. Atua no apoio técnico a produtores e cooperativas na estruturação de indicadores de rentabilidade.',
+  imagem:'a_gestao', imgCard:'b_gestao',
+  titulo:'Custo por hectare vs. custo por saca: qual métrica usar na sua fazenda',
+  resumo:'Por que o custo por hectare isolado engana e como construir um painel de indicadores que reflita a rentabilidade real.',
+  conteudo: `
+<p>Uma das perguntas mais recorrentes entre produtores rurais é: "Qual é o meu custo?" A resposta, na maioria dos casos, é dada em reais por hectare. O problema é que essa métrica, isolada, é insuficiente — e frequentemente enganosa. Neste artigo, mostramos por quê e como construir uma leitura mais precisa da rentabilidade.</p>
+
+<h2>Por que "custo por hectare" engana</h2>
+<p>O custo por hectare responde à pergunta <strong>"quanto gastei em cada hectare cultivado?"</strong>. Essa é uma informação válida, mas incompleta. Ela não considera quanta produção foi obtida naquele hectare. Duas fazendas com o mesmo custo por hectare podem ter rentabilidades completamente diferentes, dependendo de suas produtividades.</p>
+
+<div class="callout">
+  <strong>Exemplo</strong>
+  <p>Fazenda A: custo de R$ 3.500/ha, produtividade de 60 sc/ha → custo por saca de R$ 58,33.<br>
+  Fazenda B: custo de R$ 4.200/ha, produtividade de 80 sc/ha → custo por saca de R$ 52,50.<br>
+  A fazenda B tem custo por hectare <em>maior</em>, mas custo por saca <em>menor</em>. Qual delas é mais eficiente?</p>
+</div>
+
+<h2>O que realmente importa: custo por unidade produzida</h2>
+<p>Para fins de rentabilidade, a métrica correta é o <strong>custo por unidade produzida</strong> — saca de soja, arroba de boi, tonelada de algodão. É ela que dialoga com o preço de venda e revela a margem real do negócio.</p>
+
+<table>
+  <thead>
+    <tr><th>Métrica</th><th>Responde à pergunta</th><th>Uso principal</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Custo por hectare</td><td>Quanto gastei por ha?</td><td>Orçamento, planejamento de safra</td></tr>
+    <tr><td>Custo por saca</td><td>Quanto custa cada unidade produzida?</td><td>Análise de rentabilidade, comparação entre talhões</td></tr>
+    <tr><td>Custo por real faturado</td><td>Quanto gasto por real vendido?</td><td>Controle de eficiência global</td></tr>
+    <tr><td>Margem por hectare</td><td>Quanto sobra por hectare?</td><td>Decisão de alocação de área</td></tr>
+  </tbody>
+</table>
+
+<h2>Como construir um painel de custos eficiente</h2>
+<p>Um painel de gestão útil tem poucos indicadores e muita precisão. A estrutura recomendada é a seguinte:</p>
+<ol>
+  <li><strong>Separe por talhão e por cultura.</strong> Custos médios da fazenda escondem distorções importantes.</li>
+  <li><strong>Divida os custos em categorias.</strong> Insumos, operações, arrendamento, mão de obra, administração, capital.</li>
+  <li><strong>Classifique custos em fixos e variáveis.</strong> Isso permite entender o que muda se a área aumentar ou diminuir.</li>
+  <li><strong>Calcule custo por saca ao final de cada ciclo.</strong> Essa é a métrica que compara talhões e safras.</li>
+  <li><strong>Acompanhe o custo por saca ao longo do tempo.</strong> A tendência é mais informativa do que o valor absoluto.</li>
+</ol>
+
+<h2>O erro mais comum: ignorar o custo do capital</h2>
+<p>Um dos itens menos incluídos nos painéis de custo é o custo do capital — tanto o custeio bancário quanto o custo de oportunidade do capital próprio. Em fazendas com uso intensivo de financiamento, essa rubrica pode representar entre 5% e 12% do custo total. Ignorá-la distorce completamente a leitura da rentabilidade.</p>
+
+<h2>Como usar os indicadores para decidir</h2>
+<p>Os indicadores não servem para gerar relatórios bonitos. Servem para orientar decisões. Alguns exemplos práticos:</p>
+<ul>
+  <li><strong>Talhão com custo por saca muito superior à média:</strong> avaliar se o problema é produtividade, tipo de solo, manejo ou adubação.</li>
+  <li><strong>Aumento do custo por hectare sem aumento de produtividade:</strong> revisar a estratégia de insumos e operações.</li>
+  <li><strong>Margem por hectare muito baixa em determinada cultura:</strong> considerar rotação ou substituição na próxima safra.</li>
+  <li><strong>Custo fixo por hectare alto:</strong> avaliar ociosidade de máquinas, arrendamentos e estrutura administrativa.</li>
+</ul>
+
+<blockquote>Gestão agrícola não é sobre cortar custos, é sobre alocar recursos onde geram mais retorno. Para isso, é preciso medir com precisão — e medir a coisa certa.</blockquote>
+
+<h2>Conclusão</h2>
+<p>Custo por hectare é uma métrica útil, mas incompleta. Custo por saca é a métrica que fala diretamente com a rentabilidade. Um painel bem construído, com indicadores claros e separação por talhão, permite decisões muito mais seguras do que a intuição — e é a diferença entre fazendas que crescem e fazendas que sobrevivem.</p>
+`},
+
+'rastreabilidade-graos': {
+  categoria:'Sustentabilidade', data:'14 jan 2025', leitura:'5 min de leitura',
+  autorNome:'Dra. Helena Prado', autorCargo:'Engenheira Agrônoma · Fertilidade do Solo',
+  autorIniciais:'HP',
+  autorBio:'Doutora em Ciência do Solo pela ESALQ/USP. Responsável técnica pela área de fertilidade e nutrição de plantas da AgroVale Cerrado.',
+  imagem:'a_sustent', imgCard:'b_sustent',
+  titulo:'Rastreabilidade de grãos: o que o comprador internacional exige em 2025',
+  resumo:'Requisitos de due diligence, CAR e critérios socioambientais para exportação e acesso a mercados premium.',
+  conteudo: `
+<p>A rastreabilidade deixou de ser um diferencial competitivo e passou a ser pré-requisito de acesso a mercados. Compradores europeus, asiáticos e norte-americanos exigem documentação cada vez mais detalhada sobre a origem da soja, do milho, do algodão e da carne brasileira. Este artigo resume o que está sendo exigido em 2025.</p>
+
+<h2>O que os compradores internacionais estão pedindo</h2>
+<p>A lista varia por mercado, mas os blocos de exigência são convergentes:</p>
+<ul>
+  <li><strong>Cadastro Ambiental Rural (CAR) ativo</strong> e em conformidade com a legislação vigente.</li>
+  <li><strong>Ausência de desmatamento</strong> após data de corte definida (2020 para a União Europeia).</li>
+  <li><strong>Regularidade fundiária</strong> da propriedade fornecedora.</li>
+  <li><strong>Conformidade trabalhista</strong> e ausência de trabalho análogo ao escravo na cadeia.</li>
+  <li><strong>Rastreabilidade por talhão</strong> para as principais culturas de exportação.</li>
+  <li><strong>Due diligence de fornecedores</strong> diretos e indiretos.</li>
+</ul>
+
+<h2>A exigência da União Europeia</h2>
+<p>O regulamento europeu de produtos livres de desmatamento entrou em vigor com prazos escalonados e determina que os importadores comprovem a origem de produtos como soja, carne bovina, cacau, café, óleo de palma, borracha e madeira. A comprovação depende de geolocalização das áreas de produção e da verificação de conformidade com a legislação do país de origem.</p>
+
+<div class="callout">
+  <strong>Impacto direto</strong>
+  <p>Produtores que não conseguem comprovar rastreabilidade tendem a perder acesso a compradores premium e passam a vender com descontos em mercados menos exigentes. A diferença de preço pode superar 5% em alguns casos.</p>
+</div>
+
+<h2>O que a AgroVale já exige dos seus fornecedores</h2>
+<p>Nossa política de originação inclui critérios socioambientais formalizados em contrato. Entre os principais:</p>
+<ol>
+  <li>CAR ativo e regularidade junto ao órgão ambiental estadual.</li>
+  <li>Declaração de ausência de desmatamento após 2020 em áreas de expansão.</li>
+  <li>Certidão negativa de débitos trabalhistas e verificação da lista suja do trabalho escravo.</li>
+  <li>Comprovação de regularidade fundiária (matrícula ou contrato de arrendamento).</li>
+  <li>Registro georreferenciado dos talhões para as culturas de exportação.</li>
+</ol>
+
+<h2>Como se preparar</h2>
+<ul>
+  <li>Mantenha o CAR atualizado e sem pendências de análise.</li>
+  <li>Documente a origem de cada talhão com coordenadas geográficas.</li>
+  <li>Guarde comprovantes de conformidade trabalhista e ambiental de todos os parceiros.</li>
+  <li>Trabalhe com fornecedores que também estejam em conformidade.</li>
+  <li>Formalize um procedimento interno de verificação periódica.</li>
+</ul>
+
+<h2>Conclusão</h2>
+<p>A rastreabilidade passou de exigência de nicho a requisito de mercado. Preparar a fazenda para atender aos critérios internacionais não é apenas uma questão de acesso — é uma questão de valorização da produção e de sustentabilidade do negócio no longo prazo.</p>
+`},
+
+'micronutrientes-cerrado': {
+  categoria:'Fertilidade', data:'08 jan 2025', leitura:'6 min de leitura',
+  autorNome:'Dra. Helena Prado', autorCargo:'Engenheira Agrônoma · Fertilidade do Solo',
+  autorIniciais:'HP',
+  autorBio:'Doutora em Ciência do Solo pela ESALQ/USP. Responsável técnica pela área de fertilidade e nutrição de plantas da AgroVale Cerrado.',
+  imagem:'a_micro', imgCard:'b_micro',
+  titulo:'Micronutrientes: os nutrientes que mais limitam a produtividade no Cerrado',
+  resumo:'Boro, zinco e manganês em solos de Cerrado — diagnose, fontes e momentos corretos de aplicação.',
+  conteudo: `
+<p>No Cerrado, os macronutrientes — nitrogênio, fósforo e potássio — costumam receber a maior parte da atenção. No entanto, são os micronutrientes que mais frequentemente limitam o teto produtivo das lavouras. Este artigo foca em três deles: boro, zinco e manganês.</p>
+
+<h2>Por que os micronutrientes são críticos no Cerrado</h2>
+<p>Os solos do Cerrado são naturalmente pobres em micronutrientes. Além disso, a correção da acidez com calcário eleva o pH, o que reduz a disponibilidade de alguns elementos, especialmente boro e manganês. A combinação de solo originalmente pobre, correção de acidez e uso intensivo de culturas de alta produtividade cria um cenário em que a deficiência de micronutrientes se manifesta com frequência.</p>
+
+<h2>Boro: o micronutriente mais problemático do Cerrado</h2>
+<p>O boro é o micronutriente com maior frequência de deficiência em soja, milho, café e algodão no Cerrado. Isso se deve a três fatores:</p>
+<ul>
+  <li>Os solos do Cerrado têm teores naturalmente baixos de boro.</li>
+  <li>A faixa entre deficiência e toxicidade é estreita — o manejo exige precisão.</li>
+  <li>O boro é lixiviado com facilidade, especialmente em solos arenosos.</li>
+</ul>
+
+<div class="callout">
+  <strong>Sintomas típicos</strong>
+  <p>Em soja: morte do ponto de crescimento, folhas novas deformadas, entrenós curtos. Em algodão: abortamento de flores e queda de maçãs. Em café: engrossamento de folhas novas e seca de ponteiros.</p>
+</div>
+
+<h2>Zinco: essencial em solos corrigidos</h2>
+<p>O zinco tem baixa mobilidade na planta e no solo. A deficiência se manifesta com mais frequência em áreas onde o pH foi elevado pela calagem, especialmente acima de 6,0. Culturas como milho, soja e café são particularmente sensíveis.</p>
+
+<h3>Sintomas em milho</h3>
+<p>O sintoma clássico é o "encurtamento de entrenós" com faixas esbranquiçadas na base das folhas novas. Em casos graves, a planta apresenta redução drástica de porte e atraso no ciclo.</p>
+
+<h2>Manganês: dependente de manejo</h2>
+<p>O manganês tem comportamento oposto: sua disponibilidade aumenta em solos ácidos e reduz em pH elevado. Em áreas com histórico de calagem excessiva, a deficiência de manganês pode ser significativa. Soja e algodão são as culturas mais sensíveis.</p>
+
+<h2>Diagnóstico correto</h2>
+<p>O diagnóstico de micronutrientes é um dos mais desafiadores da agronomia, porque os teores no solo têm baixa correlação com a disponibilidade real. A recomendação prática é combinar três ferramentas:</p>
+<ol>
+  <li><strong>Análise de solo</strong> para boro e zinco extraível — referência inicial.</li>
+  <li><strong>Análise foliar</strong> no estádio de maior exigência da cultura — confirmação do status nutricional.</li>
+  <li><strong>Observação de sintomas visuais</strong> em campo — diagnóstico complementar.</li>
+</ol>
+
+<h2>Fontes e aplicação</h2>
+<table>
+  <thead>
+    <tr><th>Micronutriente</th><th>Fonte mais comum</th><th>Época de aplicação</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Boro</td><td>Ácido bórico, ulexita, bórax</td><td>Semeadura + foliar no vegetativo</td></tr>
+    <tr><td>Zinco</td><td>Sulfato de zinco, óxido de zinco</td><td>Semeadura + foliar no vegetativo</td></tr>
+    <tr><td>Manganês</td><td>Sulfato de manganês, quelatos</td><td>Foliar no estádio vegetativo</td></tr>
+    <tr><td>Molibdênio</td><td>Molibdato de amônio</td><td>Tratamento de sementes</td></tr>
+  </tbody>
+</table>
+
+<h2>Erros comuns no manejo de micronutrientes</h2>
+<ul>
+  <li>Aplicar doses elevadas de boro em solos arenosos, causando toxicidade.</li>
+  <li>Ignorar a análise foliar e trabalhar apenas com sintomas visuais.</li>
+  <li>Misturar fontes incompatíveis no mesmo tanque de pulverização.</li>
+  <li>Aplicar micronutrientes em estádios avançados, quando a absorção é baixa.</li>
+  <li>Não considerar a interação entre micronutrientes — excesso de um pode induzir deficiência de outro.</li>
+</ul>
+
+<blockquote>Micronutrientes não são o grande volume do custo de adubação, mas são frequentemente o fator que separa lavouras boas de lavouras excepcionais. O investimento é pequeno, e a resposta costuma ser visível na mesma safra.</blockquote>
+
+<h2>Conclusão</h2>
+<p>O manejo de micronutrientes no Cerrado exige precisão, diagnóstico correto e monitoramento constante. Boro, zinco e manganês são os três elementos com maior probabilidade de limitar a produtividade das principais culturas da região. Diagnosticá-los corretamente, com análise de solo, análise foliar e observação em campo, é o caminho para elevar o teto produtivo da fazenda.</p>
+`}
+
+};
+
+document.getElementById('heroIlustracao').innerHTML = SVGS.hero;
+document.getElementById('splitLaboratorio').insertAdjacentHTML('afterbegin', '<div class="ilus-wrap">'+SVGS.laboratorio+'</div>');
+document.getElementById('splitLab2').insertAdjacentHTML('afterbegin', '<div class="ilus-wrap">'+SVGS.laboratorio+'</div>');
+document.getElementById('splitFazenda').insertAdjacentHTML('afterbegin', '<div class="ilus-wrap">'+SVGS.fazenda+'</div>');
+document.getElementById('mapaIlustracao').innerHTML = SVGS.mapa;
+
+const catalogo = document.getElementById('catalogo');
+catalogo.innerHTML = PRODUTOS.map(p => `
+  <article class="produto" data-cat="${p.cat}">
+    <div class="produto-img">${SVGS[p.img]}<span class="produto-tag">${p.tag}</span></div>
+    <div class="produto-corpo">
+      <h3>${p.nome}</h3>
+      <p>${p.desc}</p>
+      <ul class="produto-specs">
+        ${p.specs.map(s => `<li><b>${s[0]}</b> ${s[1]}</li>`).join('')}
+      </ul>
+      <a href="#/contato" class="card-link" data-nav>Solicitar cotação</a>
+    </div>
+  </article>
+`).join('');
+
+function renderPostCard(slug){
+  const a = ARTIGOS[slug];
+  return `
+    <article class="post" data-artigo="${slug}">
+      <div class="post-img">${SVGS[a.imgCard]}</div>
+      <div class="post-corpo">
+        <div class="post-meta">${a.categoria} · ${a.data} · ${a.leitura.split(' ')[0]} min</div>
+        <h3>${a.titulo}</h3>
+        <p>${a.resumo}</p>
+        <span class="card-link">Ler artigo completo</span>
+      </div>
+    </article>`;
+}
+
+document.getElementById('homeBlogCards').innerHTML = Object.keys(ARTIGOS).slice(0,3).map(renderPostCard).join('');
+document.getElementById('blogGrid').innerHTML = Object.keys(ARTIGOS).map(renderPostCard).join('');
+
+document.querySelectorAll('[data-cat-blog]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('[data-cat-blog]').forEach(b => b.classList.remove('ativo'));
+    btn.classList.add('ativo');
+    const cat = btn.dataset.catBlog;
+    document.querySelectorAll('#blogGrid .post').forEach(p => {
+      const slug = p.dataset.artigo;
+      const ok = cat === 'todos' || ARTIGOS[slug].categoria === cat;
+      p.style.display = ok ? 'flex' : 'none';
+    });
+  });
+});
+
+document.addEventListener('click', e => {
+  const card = e.target.closest('[data-artigo]');
+  if (card) {
+    location.hash = '#/artigo/' + card.dataset.artigo;
+  }
+});
+
+function renderArtigo(slug){
+  const a = ARTIGOS[slug];
+  if (!a) { location.hash = '#/blog'; return; }
+
+  document.getElementById('artBreadcrumb').textContent = a.titulo;
+  document.getElementById('artCategoria').textContent = a.categoria;
+  document.getElementById('artTitulo').textContent = a.titulo;
+  document.getElementById('artResumo').textContent = a.resumo;
+  document.getElementById('artData').textContent = a.data;
+  document.getElementById('artLeitura').textContent = a.leitura;
+  document.getElementById('artAutorNome').textContent = a.autorNome;
+  document.getElementById('artCapa').innerHTML = SVGS[a.imagem];
+  document.getElementById('artConteudo').innerHTML = a.conteudo;
+
+  document.getElementById('artAutorBox').innerHTML = `
+    <div class="article-autor-avatar">${a.autorIniciais}</div>
+    <div>
+      <strong>${a.autorNome}</strong>
+      <span>${a.autorCargo}</span>
+      <p>${a.autorBio}</p>
+    </div>`;
+
+  const relacionados = Object.keys(ARTIGOS)
+    .filter(s => s !== slug)
+    .slice(0,3)
+    .map(s => {
+      const r = ARTIGOS[s];
+      return `
+        <article class="post" data-artigo="${s}">
+          <div class="post-img">${SVGS[r.imgCard]}</div>
+          <div class="post-corpo">
+            <div class="post-meta">${r.categoria} · ${r.data}</div>
+            <h3>${r.titulo}</h3>
+            <span class="card-link">Ler artigo</span>
+          </div>
+        </article>`;
+    }).join('');
+  document.getElementById('artRelacionados').innerHTML = relacionados;
+}
+
+document.getElementById('artCopiar').addEventListener('click', function(e){
+  e.preventDefault();
+  const url = location.href;
+  navigator.clipboard?.writeText(url).then(() => {
+    this.textContent = '✓';
+    setTimeout(() => { this.textContent = '🔗'; }, 1500);
+  });
+});
+
+const nav = document.getElementById('nav');
+
+function irPara(hash, scrollTop = true){
+  const raw = (hash || '#/inicio').replace('#/','') || 'inicio';
+
+  if (raw.startsWith('artigo/')) {
+    const slug = raw.replace('artigo/','');
+    renderArtigo(slug);
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('ativo'));
+    document.getElementById('page-artigo').classList.add('ativo');
+    document.querySelectorAll('.nav a').forEach(a => a.classList.remove('ativo'));
+    nav.classList.remove('aberto');
+    if (scrollTop) window.scrollTo({top:0, behavior:'auto'});
+    return;
+  }
+
+  const pagina = document.getElementById('page-' + raw);
+  if (!pagina) return;
+
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('ativo'));
+  pagina.classList.add('ativo');
+
+  document.querySelectorAll('.nav a').forEach(a => {
+    a.classList.toggle('ativo', a.getAttribute('href') === '#/' + raw);
+  });
+
+  nav.classList.remove('aberto');
+  if (scrollTop) window.scrollTo({top:0, behavior:'auto'});
+}
+
+window.addEventListener('hashchange', () => irPara(location.hash));
+document.addEventListener('DOMContentLoaded', () => irPara(location.hash));
+
+document.getElementById('menuBtn').addEventListener('click', () => nav.classList.toggle('aberto'));
+
+window.addEventListener('scroll', () => {
+  document.getElementById('header').classList.toggle('rolado', window.scrollY > 20);
+});
+
+document.querySelectorAll('#filtros .filtro').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('#filtros .filtro').forEach(b => b.classList.remove('ativo'));
+    btn.classList.add('ativo');
+    const cat = btn.dataset.filtro;
+    document.querySelectorAll('#catalogo .produto').forEach(p => {
+      const ok = cat === 'todos' || p.dataset.cat === cat;
+      p.style.display = ok ? 'flex' : 'none';
+    });
+  });
+});
+
+document.getElementById('formContato').addEventListener('submit', function(e){
+  e.preventDefault();
+  const dados = new FormData(this);
+  const linhas = [];
+  for (const [chave, valor] of dados.entries()) {
+    if (chave !== 'on' && String(valor).trim()) linhas.push(`${chave}: ${valor}`);
+  }
+  const assunto = encodeURIComponent('Solicitação comercial pelo site AgroVale Cerrado');
+  const corpo = encodeURIComponent(linhas.join('\n'));
+  document.getElementById('formSucesso').classList.add('visivel');
+  window.location.href = `mailto:comercial@agrovalecerrado.com.br?subject=${assunto}&body=${corpo}`;
+  document.getElementById('formSucesso').scrollIntoView({behavior:'smooth', block:'center'});
+});
+
+document.querySelectorAll('[data-download]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const titulo = btn.closest('.download')?.querySelector('strong')?.textContent || 'Material técnico';
+    const assunto = encodeURIComponent(`Solicitação de material: ${titulo}`);
+    const corpo = encodeURIComponent(`Olá, gostaria de receber o material: ${titulo}.`);
+    window.location.href = `mailto:comercial@agrovalecerrado.com.br?subject=${assunto}&body=${corpo}`;
+  });
+});
+
+document.querySelectorAll('.footer-base span').forEach(s => {
+  if (s.textContent.includes('© 2025')) s.textContent = s.textContent.replace('2025', new Date().getFullYear());
+});
+</script>
+</body>
+</html>
